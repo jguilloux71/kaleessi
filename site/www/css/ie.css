@@ -1,0 +1,5 @@
+*+html{overflow:auto;}
+ul.sf-menu>li>ul, ul.sf-menu>li>ul>li>ul {behavior:url(js/PIE.htc); }
+ul.sf-menu>li, .button-1, .button, #form input, #form textarea {behavior:url(js/PIE.htc); position:relative; }
+a.top, .caption {behavior:url(js/PIE.htc);}
+ul.shadow>li.current , ul.shadow>li.sfHover , ul.shadow>li:hover {box-shadow:none !important;}

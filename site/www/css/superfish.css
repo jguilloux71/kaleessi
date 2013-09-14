@@ -1,0 +1,29 @@
+.sf-menu ul {position:absolute; top:-999em;}
+.sf-menu li {position:relative; float:left;}
+.sf-menu a {display:block;  line-height:24px; color:#fff; text-transform:uppercase;}
+.sf-menu li:hover ul,.sf-menu li.sfHover ul {z-index:99}
+ul.sf-menu li:hover li ul,ul.sf-menu li.sfHover li ul {top:-999em;}
+ul.sf-menu>li {border:transparent 1px solid; margin-right:5px; border-radius:5px;  background:transparent;  }
+ul.sf-menu {margin:0;}
+ul.sf-menu>li>a {padding: 8px 21px 9px 21px; font-size:18px; text-align:center; }
+ul.sf-menu>li.current , ul.sf-menu>li.sfHover , ul.sf-menu>li:hover {border:#be5f8c 1px solid;}
+ul.shadow>li.current , ul.shadow>li.sfHover , ul.shadow>li:hover { box-shadow: 0 0 5px rgba(165, 56, 106, 1);}
+ul.sf-menu>li.current>a, ul.sf-menu>li.sfHover>a, ul.sf-menu>li>a:hover {}
+
+ul.sf-menu>li.sfHover>a.sf-with-ul>span.sf-sub-indicator {background:url(../images/menu-button-active.png) 0 0 no-repeat; display:block; width:21px; height:16px; position:absolute; bottom:-17px; right:50%; margin-right:-9px; }
+ul.sf-menu>li.sfHover>a.sf-with-ul>span.sf-sub-indicator, ul.sf-menu>li.current>a.sf-with-ul>span.sf-sub-indicator {background:url(../images/menu-button-active.png) 0 0 no-repeat;}
+
+ul.sf-menu li>ul {background: url(../images/menu-ul-1.png) 0 0 no-repeat #b52a68; width:99px; padding:7px 14px 6px 14px; border-radius:5px; top:62px; left:8px; }
+ul.sf-menu li>ul>li:first-child {border:none;}
+ul.sf-menu li>ul>li { background:transparent; border-top:#bf497d 1px solid; width:99px; }
+ul.sf-menu li>ul>li>a { padding:6px 3px 7px 6px; text-align:left; font-size:17px; }
+ul.sf-menu li>ul>li:hover, ul.sf-menu li.sfHover ul>li.sfHover{ }
+ul.sf-menu li.sfHover>ul>li:hover>a {color:#ffb1ee;}
+ul.sf-menu li.sfHover ul li.sfHover a {color:#ffb1ee;}
+
+ul.sf-menu>li.sfHover>ul>li>ul {background: url(../images/menu-ul-2.png) 0 0 no-repeat #55195e; width:99px; padding:7px 14px 6px 14px;  border-radius:5px; top:-4px; left:113px; }
+ul.sf-menu li ul li ul li:first-child {border:none;}
+ul.sf-menu li ul li ul li { background:transparent; border-top:#784283 1px solid; width:99px;}
+ul.sf-menu li ul li ul li a {padding:6px 3px 7px 9px;text-align:left; font-size:17px; color:#fff !important; }
+ul.sf-menu li ul li ul li:hover { }
+ul.sf-menu li ul li ul li:hover a {color:#f2b4ff !important;}
