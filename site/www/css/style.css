@@ -9,12 +9,14 @@ body {
 	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
 	font-size:13px; 
 	line-height:19px;
-	color:#695269;
-	background:url(../images/bg.jpg) center 0 no-repeat #2e0d32; 
+	color:#695269;  /* couleur du texte général */
+	background:url(../images/kaleessi/background-kaleessi.png) center 0 /*no-*/repeat #1c1c1b; /* couleur du background si pas de repeat */
 	min-width:977px;
 	padding-bottom:78px;
 }
-.main {background:#1c091e; margin:0 auto; width:977px; position:relative; }
+
+/* contour avec bords larges */
+.main {background:#1c1c1b; margin:0 auto; width:977px; position:relative; }
 /***********************************************************************/
 
 a {text-decoration:none; cursor:pointer;}
@@ -112,7 +114,10 @@ ul.list-2 li a:hover {text-decoration:none; color:#e39efd;}
 
 /*********************************header*************************************/
 header {width:977px; margin:0 auto; z-index:99; position:relative; }
-.logo {margin:27px 0px 7px 0px; float:left;}
+.logo {
+    margin: 27px 0px 7px 0px;
+    float: left;
+}
 h1 { width:200px; height:96px;}
 nav {float:left; margin:50px 0px 0px 87px; position:relative; z-index:99;}
 
