@@ -49,17 +49,31 @@
                       <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.fr/maps?f=q&amp;source=s_q&amp;hl=fr&amp;geocode=&amp;q=115,+rue+rambuteau&amp;aq=&amp;sll=46.655921,4.543941&amp;sspn=1.562828,4.22699&amp;ie=UTF8&amp;hq=&amp;hnear=115+Rue+Rambuteau,+71000+Macon,+Sa%C3%B4ne-et-Loire,+Bourgogne&amp;t=m&amp;ll=46.307513,4.823771&amp;spn=0.020752,0.036478&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
                     </div>
                     <div class="extra-wrap">
-                        <p>Nos coordonnées :</p>
+                        <h6>Nos coordonn&eacute;es</h6>
+                        <div class="block-3-text">
+                          <strong>KALEESSI<br/>115, RUE RAMBUTEAU<br/>71000 MACON<br/>FRANCE</strong>
+                        </div>
+                        <div class="block-3-text first">
                         <dl>
-                            <dt>KALEESSI<br/>115, rue Rambuteau<br/>71000 MACON<br/>FRANCE</dt>
-                            <dd><span>T&eacute;l&eacute;phone:</span>04 56 78 90 12</dd>
-                            <dd>E-mail: &nbsp;&nbsp;&nbsp;<a href="#" class="color-12">contact@kaleessi.fr</a></dd>
-                        </dl>
-                        <p>&nbsp;</p>
-                        <p>Nos horaires d'ouverture :</p>
-                        <dl>
-                            <dt>Lundi : 14H - 18H<br/>Mardi : 09H30 - 18H (non-stop)</dt>
-                        </dl>
+                          <dd>T&eacute;l&eacute;phone&nbsp;:&nbsp;09 73 66 41 05</dd>
+                          <dd>E-mail: &nbsp;&nbsp;&nbsp;<a href="#" class="color-12">contact@kaleessi.fr</a></dd>
+				        </dl>
+                        </div>
+                        <h6>Nos Horaires</h6>
+                        <div class="block-3-text">
+                          <p>Avec ou sans rendez-vous</p>
+                          <p>&nbsp;</p>
+                          <table class="color-6">
+                            <tr><td>Lundi</td><td>&nbsp;: 14H00 - 18H00</td></tr>
+                            <tr><td>Mardi</td><td>&nbsp;: 09H30 - 18H00 (non-stop)</td></tr>
+                            <tr><td>Mercredi</td><td>&nbsp;: 09H00 - 13H00</td></tr>
+                            <tr><td>Jeudi</td><td>&nbsp;: 09H30 - 18H00 (non-stop)</td></tr>
+                            <tr><td>Vendredi</td><td>&nbsp;: 09H30 - 18H00 (non-stop)</td></tr>
+                            <tr><td>Samedi</td><td>&nbsp;: 09H00 - 13H00</td></tr>
+                          </table>
+                          <p>&nbsp;</p>
+                          <p class="color-6">(Sur rendez-vous le samedi apr&egrave;s-midi)</p>
+				        </div>
                     </div>
                 </div>
              </div>   
