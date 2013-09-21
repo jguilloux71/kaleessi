@@ -56,7 +56,7 @@
             <div class="grid_12">
                 <div class="slider">
                   <ul class="items">
-                     <li><img src="images/slider-1.jpg" alt=""><div class="banner slider-text"><strong>Vernis permenant</strong></div></li>
+                     <li><img src="images/slider-1.jpg" alt=""><div class="banner slider-text"><strong>Vernis permanant</strong></div></li>
                      <li><img src="images/slider-2.jpg" alt=""><div class="banner slider-text"><strong>French manucure</strong></div><strong></strong></li>
                      <li><img src="images/slider-3.jpg" alt=""><div class="banner slider-text"><strong>Nail art</strong></div></li>
                      <li><img src="images/slider-4.jpg" alt=""><div class="banner slider-text"><strong>Graine de plaisir</strong></div></li>
@@ -93,33 +93,31 @@ ertase volupta quia voluptasit.</p>
             <div class="grid_4">
             	<article class="block-3 maxheight">
                     <h5>Nos Horaires</h5>
-                    <div class="block-3-text first">
-                        <p class="color-5">Creative Hair Cuts</p>
-                        <a href="#" class="color-6">Oluptatemquia volups sitsptur tosedera
-    it autfugise consequuntur.</a>
-					</div>
                     <div class="block-3-text">
-                        <p class="color-5">Permanent Make Up</p>
-                        <a href="#" class="color-6">Nasagni doloresoui ratione volupta nera
-em sequiunt, neque porro.</a>
-					</div>
-                    <div class="block-3-text">
-                        <p class="color-5">Facials</p>
-                        <a href="#" class="color-7">Kertyas foloresqui ratione lerta
-em sequi nescique porro quisq uameras 
-estqui dolorem ipsumquia.</a>
+                        <p class="color-5">Avec ou sans rendez-vous</p>
+                        <table class="color-6">
+                          <tr><td>Lundi</td><td>&nbsp;: 14H00 - 18H00</td></tr>
+                          <tr><td>Mardi</td><td>&nbsp;: 09H30 - 18H00 (non-stop)</td></tr>
+                          <tr><td>Mercredi</td><td>&nbsp;: 09H00 - 13H00</td></tr>
+                          <tr><td>Jeudi</td><td>&nbsp;: 09H30 - 18H00 (non-stop)</td></tr>
+                          <tr><td>Vendredi</td><td>&nbsp;: 09H30 - 18H00 (non-stop)</td></tr>
+                          <tr><td>Samedi</td><td>&nbsp;: 09H00 - 13H00</td></tr>
+                        </table>
+                        <p>&nbsp;</p>
+                        <p class="color-6">(Sur rendez-vous le samedi après-midi)</p>
 					</div>
                 </article>    
             </div>
             <div class="grid_5">
             	<article class="block-4 maxheight">
-            		<h5>Graine de Plaisir</h5>
-                    <img src="images/page-1-img-1.jpg" alt="">
-                    <p class="color-8">Kertyade Fertasera Miaseras Lertyas</p>
-                    <p>Malerosac cusa ntium reuede eareicta lertyasera
+					<a href="saloon.php#gdp"><img src="images/graine-de-plaisir/logo-graine-de-plaisir-full.png" alt="Graine de Plaisir"></a>
+                    <div class="block-4-text">
+                      <p class="color-5">Kertyade Fertasera Miaseras Lertyas</p>
+                      <p>Malerosac cusa ntium reuede eareicta lertyasera
 su explicabonemo enim ipsam lertase volupta lertas
 fugised quia consequ lertyuntures.</p>
-					<a href="#" class="button">En savoir plus</a>
+					  <a href="saloon.php#gdp" class="button">En savoir plus</a>
+                    </div>
            		</article>
             </div>
             <div class="grid_3">

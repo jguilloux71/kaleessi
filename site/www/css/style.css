@@ -35,8 +35,7 @@ a.link:hover {color:#f94a49;}
 .color-2 { color: #a888a8; line-height:22px; }
 .color-3 { font-size:13px; line-height:19px; color: #dba6c7; font-weight:bold; }
 .color-4 { color: #a25d88; }
-/*.color-5 { font-size:18px; line-height:24px; color: #a23f7e; }*/
-.color-5 { font-size:18px; line-height:24px; color: #e61d72; }
+.color-5 { font-size:18px; line-height:24px; color: #a23f7e; }
 a.color-5 {text-decoration:none;}
 a.color-5:hover {color:#e39efd;}
 a.color-6{ font-size:13px; line-height:18px; color: #704e6b; text-decoration:underline;}
@@ -172,6 +171,7 @@ a.top {
 .block-4  img {margin:24px 0 20px 0;}
 .block-4 p.color-8 {padding-bottom:8px;}
 .block-4 a.button {margin-top:21px;}
+.block-4-text {border-top:#312133 1px solid; padding:20px 0 23px 0; line-height:18px;}
 .block-5 h5 {margin:0 0 23px 3px;}
 .page-2-col-1 {}
 .page-2-col-1 p.color-8 {padding-bottom:13px; margin-top:-4px;}
