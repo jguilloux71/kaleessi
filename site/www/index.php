@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <?php require('include/header.html'); ?>
+    <?php require('include/header.php'); ?>
     <script type="text/javascript" src="js/jquery-1.6.2.min.js"></script>
     <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
     <script type="text/javascript" src="js/cufon-yui.js"></script>
@@ -44,8 +44,8 @@
 <body>
 <!--==============================header=================================-->
   <header id="top">
-      <?php require('include/logo.html'); ?>
-      <?php require('include/menu.html'); ?>
+      <?php require('include/logo.php'); ?>
+      <?php require('include/menu.php'); ?>
       <div class="clear"></div>
   </header> 
 <div class="max">   
@@ -73,7 +73,7 @@
             </div>
             <div class="grid_8 block-1">
             	<article class="block-1-content">
-                	<h3>Welcome!</h3>
+                	<h3>Bienvenue !</h3>
                     <p class="color-1">New styles in hair cuts, hair color, make up services.</p>
                     <p class="color-2">Architecto beatae naseaeraciat kuiase undeosler miasosac usa ntuedearsteked icexplic
 abo nemo enim ipsam lertasevol uptatemia voluptas sit. Aspernatur aut odit aut fugitedera
@@ -83,16 +83,16 @@ quisquam estqui dolorem ipsumquia dolor sitamet.</p>
             </div>
             <div class="grid_4 block-2">
             	<article class="block-2-content">
-            		<h4>Our News</h4>
+            		<h4>Promotion</h4>
                     <p class="color-3">15.12.2011 Lertasera Miaseras</p>
                     <p class="color-4">unde omasler miase lerosac cntiureuede earsteked icta su expline enim ipsam
 ertase volupta quia voluptasit.</p>
-					<a href="#" class="button-1">read more</a>
+					<a href="#" class="button-1">En savoir plus</a>
 				</article>
             </div>
             <div class="grid_4">
             	<article class="block-3 maxheight">
-                    <h5>Our Services</h5>
+                    <h5>Nos Horaires</h5>
                     <div class="block-3-text first">
                         <p class="color-5">Creative Hair Cuts</p>
                         <a href="#" class="color-6">Oluptatemquia volups sitsptur tosedera
@@ -113,27 +113,21 @@ estqui dolorem ipsumquia.</a>
             </div>
             <div class="grid_5">
             	<article class="block-4 maxheight">
-            		<h5>2012 HairTrends</h5>
+            		<h5>Graine de Plaisir</h5>
                     <img src="images/page-1-img-1.jpg" alt="">
                     <p class="color-8">Kertyade Fertasera Miaseras Lertyas</p>
                     <p>Malerosac cusa ntium reuede eareicta lertyasera
 su explicabonemo enim ipsam lertase volupta lertas
 fugised quia consequ lertyuntures.</p>
-					<a href="#" class="button">read more</a>
+					<a href="#" class="button">En savoir plus</a>
            		</article>
             </div>
             <div class="grid_3">
             	<article class="block-5">
-                    <h5>Most Popular</h5>
+                    <h5>Retrouvez-nous</h5>
                     <ul class="list-1">
-                        <li><a href="#">hair coloring</a></li>
-                        <li><a href="#">henna body art</a></li>
-                        <li><a href="#">manicures</a></li>
-                        <li><a href="#">pedicures</a></li>
-                        <li><a href="#">Waxing</a></li>
-                        <li><a href="#">Skin care</a></li>
-                        <li><a href="#">hair treatments</a></li>
-                        <li><a href="#">nail care</a></li>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
                     </ul>
                 </article>    
             </div>
@@ -141,7 +135,7 @@ fugised quia consequ lertyuntures.</p>
           </div>
       </section> 
     <!--==============================footer=================================-->
-      <?php require('include/footer.html'); ?>
+      <?php require('include/footer.php'); ?>
     </div>
     <a class="top" onClick="goToByScroll('top'); return false;" href="#"><span>TOP</span></a>    
 </div>    

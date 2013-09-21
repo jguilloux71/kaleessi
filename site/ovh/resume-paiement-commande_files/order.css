@@ -1,0 +1,684 @@
+/* css document */
+
+body {
+    text-align: center;
+}
+
+a , a:visited {
+    color: #0068b1;
+    text-decoration: underline;
+}
+
+a:hover, a:active {
+    color: #880000;
+    text-decoration: none;
+}
+
+/*ul li {
+    font-size: 11px;
+    margin-left: 32px;
+}*/
+
+grey { margin-left: 5px; margin-bottom: 5px; }  
+
+ul.grey li { margin-left: 5px; }
+
+ul.grey li {
+    list-style-image: url('../../themes/default/images/shared/listImageGrey.gif');
+    list-style-type: none;
+    color: #3c3c3c;
+    margin-top: 2px;
+}
+
+ul.grey li a {
+    color: #3c3c3c;
+}
+
+ul.grey li.blue, ul.blue li, ul.blueButGrey li {
+    list-style-image: url('../../themes/default/images/shared/listImage.gif');
+    list-style-type: none;
+    color: #0068b1;
+    margin-top: 2px;
+}
+
+ul.blueButGrey li { color: #3c3c3c; }
+
+ul.grey li.blue a {
+    color: #0068b1;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+/* ====> Box styles <==== */
+.in {
+    width: 600px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+..common_box_body {
+    width: 100%;
+    border: 0;
+    text-align: left;
+}
+
+
+.twothirds_box {
+    float: left;
+    width: 66%;
+}
+.twothirds_box_body {
+    border: 0;
+    text-align: left;
+}
+
+.onethird_box {
+    float: right;
+    width: 33%;
+}
+.onethird_box_body {
+    border: 0;
+    text-align: left;
+}
+
+.info {
+    width: 98%;
+    margin-left: 1%;
+    color: #0068b1;
+    font-size: 10px;
+    text-indent: 15px;
+    text-align: justify;
+    font-style: italic;
+}
+
+.info b {
+    color: #3c3c3c;
+}
+
+.info a, .info a:hover, .info a:visited, .info a:active {
+    color: #0068b1;
+    text-decoration: none;
+    text-align: right;
+    float: right;
+    width: 45px;
+    background: url('../../images/order/info.gif') no-repeat 0% 0%; 
+}
+
+.selection {
+    float: left;
+    background: url('../../images/order/fleche.gif') no-repeat 15px 4px;
+    text-align: left;
+    text-indent: 40px;
+    line-height: 15px;
+    font-size: 11px;
+}
+
+a.close, a.close:hover, a.close:visited, a.close:active {
+    float: right;
+    margin-right: 2px;
+    width: 12px;
+    height: 12px;
+    display: block;
+    background: transparent url('../../images/order/close_help.gif') no-repeat 50% 50%;
+}
+
+.common_box_body p {
+    color: #3c3c3c;
+    width: 98%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.twothirds_box_body p {
+    width: 370px;
+    margin-left: 5px;
+    padding-top:5px;
+    padding-bottom: 5px;
+}
+   
+
+.onethird_box_body p {
+    width: 190px;
+    margin-left: 5px;
+    padding-top:5px;
+    padding-bottom: 5px;
+}
+
+.status_bar {
+    width: 600px;
+    height: 25px;
+    background: url('../../images/order/status_bar.gif') no-repeat 0 0;
+}
+
+.errors {
+    width: 90%;
+    border: 2px dotted #ff0000;
+    margin-left: 4%;
+    padding: 5px;
+}
+
+.warnings h4 {
+    background-color : transparent;
+	color : #ff9900;
+	font-size : 14px;
+}
+
+.warnings {
+    width: 90%;
+    border: 2px dotted #ff9900;
+    margin-left: 4%;
+    padding: 5px;
+}
+
+.warnings h4 {
+    background-color : transparent;
+	color : #8b0000;
+	font-size : 14px;
+}
+
+table.answer {
+    width: 95%;
+    margin-left: 2.5%;
+}
+
+.answer tr td {
+    background: #eeeeee;
+    vertical-align: middle;
+    line-height: 100%;
+    padding-top: 3px;
+}
+
+td.item_answer {
+    text-align: left;
+    vertical-align: middle;
+}
+
+td.item {
+    vertical-align: middle;
+    text-align: right;
+    font-weight: bold;
+    width: 35%;
+    color: #444444;
+}
+
+table.blue_table {
+    background: #dbdbdb;
+    text-align: left; 
+}
+
+table.blue_table tr td {
+    background: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+}
+
+table.blue_table tr th {
+    background: white;
+    font-weight: bold; 
+    text-align: center;
+}
+
+table.blue_table tr.title{   
+    background: #7fbed9;
+}
+
+table.blue_table tr.title th {
+    background: transparent;
+    font-weight: bold; 
+    text-align: center;
+}
+
+table.blue_table tr.grey_line td, table.blue_table tr.grey_line th  {   
+    background: #ebebeb;
+}
+
+
+/* =====> GENERAL STYLES FOR ORDER <===== */
+/* => pagings */
+hr {
+    visibility: hidden;
+    color: #ffffff; /* security */
+    display: block;
+    clear: both;
+}
+
+.red {
+    font-weight: bold;
+    color: #ff0000;
+}
+
+.orange {
+    font-weight: bold;
+    color: #ff9900;
+}
+
+.green {
+    font-weight: bold;
+    color: #009900;
+}
+
+
+/* => forms */
+
+label { cursor: pointer; }
+
+input {
+    vertical-align : middle;
+    line-height: 100%;
+    padding: 2px;
+    font-size: 12px;
+}
+
+.text, .text_small, .select{
+    width: 260px;
+    background: #ffffff;
+    border: 1px solid #aaaaaa;
+    color: #0068b1; 
+    font-size: 11px;
+}
+
+.text_small { width: 160px; }
+
+select {
+    vertical-align: middle;
+    color: #3c3c3c;
+    background: #ffffff;
+    border: 1px solid #666;
+}
+
+textarea {
+    color: #3c3c3c;
+    font-size: 11px;
+}
+
+button {
+    background: #dfdfdf;
+    height: 20px;
+    line-height: 20px;
+    border: 1px solid #000;
+    float: right;
+    display: inline;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.button, .button:active, .button:hover, .button:visited {
+    text-decoration : none;
+    color: #3c3c3c;
+    background: #dfdfdf;
+    height: 20px;
+    border: 1px groove #666;
+    line-height: 20px;
+    float: right;
+    display: inline;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+.calendar .button, .calendar .button:visited {
+    text-decoration : none;
+    color: #3c3c3c;
+    background: #dfdfdf;
+    height: 20px;
+    border: 1px solid #666;
+    border-bottom: none;
+    line-height: 0px;
+    float: none;
+    display: table-cell;
+    margin-right: 0px;
+    vertical-align: 0px;
+}
+
+.calendar .button:hover {
+    text-decoration : none;
+    color: #3c3c3c;
+    background: #dfdfdf;
+    height: 20px;
+    border: 1px outset #666;
+    line-height: 0px;
+    float: none;
+    display: table-cell;
+    margin-right: 0px;
+    vertical-align: 0px;
+ 
+}
+
+.calendar .button:active {
+    text-decoration : none;
+    color: #3c3c3c;
+    background: #dfdfdf;
+    height: 20px;
+    border: 1px inset #666;
+    line-height: 0px;
+    float: none;
+    display: table-cell;
+    margin-right: 0px;
+    vertical-align: 0px;
+}
+
+.status_bar button {
+    display: block;
+    background: #dfdfdf;
+    margin-top: 3px;
+    height: 20px;
+    border: 1px solid #ffffff;
+    line-height: 15px;
+    color: #3c3c3c;
+    float: right;
+    margin-right: 15px;
+}    
+
+.status_bar p {
+    margin: 3px;
+    margin-top: 5px;
+    font-size: 11px;
+    text-align: left;
+    color: #ffffff;
+    width: 60%;
+    line-height: 15px;
+    float: left;
+}    
+
+.delcomponents { 
+    background: url('../../images/comp_nochecked.gif') no-repeat 50% 50%;
+    width: 15px;
+    height: 15px;
+    border: 0;
+    cursor: pointer;
+    margin: 0;
+    margin-left: 55px;
+    padding: 0;
+    float: left;
+}
+
+.caddie {    
+    border: 1px solid #999998;
+    height: 40px;
+    width: 50px;
+    background-color: #ffffff;
+    background: url('../../images/order/caddie.gif') no-repeat 50% 50%;
+    float: right;
+    margin: 0;
+    margin-top: -19px;
+    margin-right: 9px;
+    padding: 0;
+}
+    
+
+/* ====> top step bar params <==== */
+#order_step_bar {
+    width: 760px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+#order_step_bar .item {
+    width: 150px;
+    height: 30px;
+    line-height: 28px;
+    float: left;
+    margin-left: 1px;
+    margin-right: 1px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    color: #999999;
+    background: transparent url('../../images/order/unselected_item.gif') no-repeat 0 0;
+}
+
+.item a, .item a:hover, .item a:active, .item a:visited {
+    font-size: 12px;
+    font-weight: bold;
+    color: #999999;
+    text-decoration : none;
+}
+
+#order_step_bar .current_item {
+    width: 150px;
+    height: 25px;
+    line-height: 25px;
+    float: left;
+    margin-left: 1px;
+    margin-right: 1px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    color: #0068b1;
+    background: transparent url('../../images/order/selected_item.gif') no-repeat 0 0;
+}
+
+.current_item a, .current_item a:hover, .current_item a:active, .current_item a:visited {
+    font-size: 12px;
+    font-weight: bold;
+    color: #0068b1;
+    text-decoration: none;
+}
+
+/* ========== New Step Bar ========= */
+
+#title_bar {
+    width: 180px;
+    height: 25px;
+    background: transparent url('../../themes/default/images/blue/stepBarTitle.png') no-repeat 0% 0%;   
+    display: block;
+    float: left;
+    color: #0B4499;
+    font-size: 14px;
+    text-align: center;
+    line-height: 25px;
+    font-weight: bold;
+    font-family: "Trebuchet MS","Gill Sans","bitstream Charter","Liberation Sans","FreeSans",sans-serif;
+}
+
+#step_bar {
+    width: 100%;
+    height: 25px;
+    background: transparent url('../../themes/default/images/blue/stepBarBgwaiting.png') repeat-x 0% 0%;   
+    display: block;
+    float: right;
+}
+
+#step_bar div, #step_bar a, #step_bar a:visited, #step_bar a:hover, #step_bar a:active  {
+    background: transparent url('../../themes/default/images/blue/stepBarBgwaiting.png') repeat-x 0% 0%;   
+    display: block; 
+    height: 100%;
+    line-height: 25px;
+    font-family: "Trebuchet MS","Gill Sans","bitstream Charter","Liberation Sans","FreeSans",sans-serif;
+    font-weight: bold;
+    color: #3c3c3c; 
+    float: left;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    text-align: center;
+}
+
+#step_bar div.selected, #step_bar a.selected { 
+    background: url('../../themes/default/images/blue/stepBarBg.png') repeat-x 0% 0%;  
+    color: white;
+}
+
+#step_bar div.title {
+    float: left;
+    width: 185px;
+    height: 25px;
+    background: none; 
+    color: #0B4499;
+    font-size: 14px;
+    text-align: center;
+}
+/* ========== New menus patch ========== */
+
+#navigation_menu .vertical_menu {
+    background: #ffffff;
+    margin: 0;
+}
+
+#dedicated {
+    background: #ffffff;
+    font-size: 11px; 
+    color: #3c3c3c;
+    border: 1px; 
+    border-color: #567eb9; 
+    border-style: solid; 
+    border-top: 0; 
+    border-bottom: 0; 
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#dedicated h2 {
+    padding: 0; 
+    margin: 0;
+    font-family: "Trebuchet MS","Gill Sans","bitstream Charter","Liberation Sans","FreeSans",sans-serif;
+    font-size: 11px; 
+    font-weight: bold;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background: #567eb9;
+    color: #ffffff;
+    margin: 0;
+    margin-bottom: 5px;
+    width: 100%;
+    display: block; 
+}
+
+#dedicated img {
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+}
+
+
+#dedicated p {
+    color: #3c3c3c; 
+    text-align: left;
+    margin: 2px;
+}
+
+#dedicated ul {
+    text-align: left;
+    margin-left: 5px;
+    display: block;
+}
+
+#dedicated a, #dedicated a:visited { color: #0068b1; }
+
+
+/* ========== menus intends to be always the same ========== */
+.menus_top {
+    width: 100%;
+    margin: 0; 
+    padding: 0;
+}
+
+.menus_bottom {
+    border-bottom: 1px solid #567eb9;
+    height: 12px;
+    width: 100%;
+    margin: 0; 
+    padding: 0;
+}
+
+/* ========== tables params to display prices or usual tabbed infos ========= */
+
+table td, table.price td  { vertical-align: middle; text-align: left; padding: 2px; }
+
+table tr.title { background: #cedaeb; }
+table tr.title th {  text-align: left; color: #0068b1;  }
+table tr.title th label {  text-align: left; color: #0068b1;  }
+
+table tr th {  text-align: left; color: #3c3c3c;  }
+
+table td.answer { color: #0068b1; vertical-align: middle; text-align: center; }
+
+table tr.light { background: #ebebeb; }
+table tr td.light { background: #ebebeb; font-size: 9px; color: #3c3c3c; }
+
+table.price { background: #cbcbcb; text-align: center; }
+table.price tr.price { background: #ffffff; }
+table.price tr.title th { text-align: center; line-height: 19px;  }
+table tr.price img { margin: 3px; }
+table.price tr.title td { padding: 2px; }
+table.price tr.price th { padding: 2px; }
+table.price tr.MainTitle th { text-align: left; background: #567eb9; color: white; font-weight: bold; padding: 4px; }
+
+
+table.price tr td label, table.price tr td input, table.price tr td img {vertical-align: middle;}
+
+/*ul { margin-left: 25px; margin-bottom: 5px; }*/
+
+ul.blue li {
+    list-style-image: url('../../themes/default/images/shared/listImage.gif');
+    list-style-type: none;
+    color: #0068b1;
+    font-size: 11px;
+    text-align: left;
+}
+
+
+a.platnosci, a.platnosci:link, a.platnosci:hover, a.platnosci:visited {
+    float: left;
+    display: block;
+    font-size: 0px;
+    line-height: 15px;
+    width: 67px;
+    background: transparent url('../../themes/default/images/shared/platnosci-logo.png') no-repeat 0% 50%;
+}   
+
+
+
+
+
+
+/* ################################################################################################
+ *          common styles from new 2008 CSS styles in France...
+ *          For orderDisplay
+          
+
+.red     { color: #d40000; }
+.grey    { color: #3c3c3c; }
+.blue:visited,
+.blue    { color: #0068b1; }
+.dblue   { color: #0B4499; }
+.white   { color: #ffffff; }
+
+
+.bgblue   { background: #0068b1; }
+
+.Fleft  { float: left;  }
+.Fright { float: right; }
+
+.padded { padding: 4px; }
+.marged { margin: 4px; }
+.Lpadded { padding: 0; padding-top: 3px; padding-left: 3px; padding-bottom: 3px; }
+.Rpadded { padding: 0; padding-top: 3px; padding-right: 3px; padding-bottom: 3px; }
+
+
+.bold       { font-weight: bold; }
+.normal     { font-weight: normal; }
+.underline  { text-decoration: underline; }
+.little,
+.small { font-size: 9px; }
+
+.center { text-align: center; text-indent: 0; }
+.right  { text-align: right; text-indent: 0; }
+.left   { text-align: left; }
+
+.full     { width: 100%; }
+.half     { width: 48%; }
+.half25   { width: 24%; }
+.half33   { width: 33%; }
+.half55   { width: 54%; }
+.half66   { width: 65%; }
+.half75   { width: 74%; }
+.half80   { width: 80%; }
+
+*/
+

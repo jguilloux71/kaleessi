@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <?php require('include/header.html'); ?>
+    <?php require('include/header.php'); ?>
     <script type="text/javascript" src="js/jquery-1.6.2.min.js"></script>
     <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
     <script type="text/javascript" src="js/cufon-yui.js"></script>
@@ -33,8 +33,8 @@
 <body>
 <!--==============================header=================================-->
   <header id="top">
-      <?php require('include/logo.html'); ?>
-      <?php require('include/menu.html'); ?>
+      <?php require('include/logo.php'); ?>
+      <?php require('include/menu.php'); ?>
       <div class="clear"></div>
   </header> 
 <div class="max">   
@@ -43,47 +43,49 @@
       <section id="content">
           <div class="container_12">
             <div class="grid_12">
-            	<h2 class="pad-1">How to Find Us</h2>
+            	<h2 class="pad-1">Comment nous trouver</h2>
                 <div class="wrapper page-5-row-1">   
                     <div class="map">
-                        <iframe src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Brooklyn,+New+York,+NY,+United+States&amp;aq=0&amp;sll=37.0625,-95.677068&amp;sspn=61.282355,146.513672&amp;ie=UTF8&amp;hq=&amp;hnear=Brooklyn,+Kings,+New+York&amp;ll=40.649974,-73.950005&amp;spn=0.01628,0.025663&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
+                      <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.fr/maps?f=q&amp;source=s_q&amp;hl=fr&amp;geocode=&amp;q=115,+rue+rambuteau&amp;aq=&amp;sll=46.655921,4.543941&amp;sspn=1.562828,4.22699&amp;ie=UTF8&amp;hq=&amp;hnear=115+Rue+Rambuteau,+71000+Macon,+Sa%C3%B4ne-et-Loire,+Bourgogne&amp;t=m&amp;ll=46.307513,4.823771&amp;spn=0.020752,0.036478&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
                     </div>
                     <div class="extra-wrap">
-                        <p>Duis ultricies pharetra magna. Donec accumsan. malesuada orci. Donec sit amet eros. Lorem ipsum dolor sit amet, consectetuer adip
-iscing elit. Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget, elementum vel.</p>
+                        <p>Nos coordonnées :</p>
                         <dl>
-                            <dt>8901 Marmora Road,<br>Glasgow, D04 89GR.</dt>
-                            <dd><span>Freephone:</span>+1 800 559 6580</dd>
-                            <dd><span>Telephone:</span>+1 800 603 6035</dd>
-                            <dd><span>FAX:</span>+1 800 889 9898</dd>
-                            <dd>E-mail: &nbsp;&nbsp;&nbsp;<a href="#" class="color-12">mail@demolink.org</a></dd>
+                            <dt>KALEESSI<br/>115, rue Rambuteau<br/>71000 MACON<br/>FRANCE</dt>
+                            <dd><span>T&eacute;l&eacute;phone:</span>04 56 78 90 12</dd>
+                            <dd>E-mail: &nbsp;&nbsp;&nbsp;<a href="#" class="color-12">contact@kaleessi.fr</a></dd>
+                        </dl>
+                        <p>&nbsp;</p>
+                        <p>Nos horaires d'ouverture :</p>
+                        <dl>
+                            <dt>Lundi : 14H - 18H<br/>Mardi : 09H30 - 18H (non-stop)</dt>
                         </dl>
                     </div>
                 </div>
              </div>   
             <div class="grid_12 line-1"></div>
             <div class="grid_12">
-            	<h2 class="top-2">Contact Form</h2>   
+            	<h2 class="top-2">Formulaire de contact</h2>
                 <form id="form">
-                  <div class="success">Contact form submitted!<br>
-                  <strong>We will be in touch soon.</strong> </div>
+                  <div class="success">Votre message a &eacute;t&eacute; correctement envoy&eacute;. Merci.<br>
+                  <strong>Nous entrerons en contact avec vous le plus rapidement possible !</strong> </div>
                   <fieldset>
                     <label class="name">
-                      <input type="text" value="Name" class="fleft">
-                        <span class="error error-empty">*This is not a valid name.</span><span class="empty error-empty">*This field is required.</span> </label>
+                      <input type="text" value="Nom et prénom" class="fleft">
+                        <span class="error error-empty">*Nom invalide.</span><span class="empty error-empty">*Ce champ est obligatoire.</span> </label>
                       <div class="clear"></div>
                     <label class="email">
-                      <input type="text" value="E-mail" class="fleft">
-                        <span class="error error-empty">*This is not a valid email address.</span><span class="empty error-empty">*This field is required.</span> </label>
+                      <input type="text" value="Adresse email" class="fleft">
+                        <span class="error error-empty">*Adresse email invalide.</span><span class="empty error-empty">*Ce champ est obligatoire.</span> </label>
                       <div class="clear"></div>
                     <label class="phone">
-                      <input type="tel" value="Phone" class="fleft">
-                        <span class="error error-empty">*This is not a valid phone number.</span><span class="empty error-empty">*This field is required.</span> </label>
+                      <input type="tel" value="Téléphone" class="fleft">
+                        <span class="error error-empty">*Num&eacute;ro de t&eacute;l&eacute;phone invalide.</span><span class="empty error-empty">*Ce champ est obligatoire.</span> </label>
                       <div class="clear"></div>
                     <label class="message">
-                      <textarea>Message</textarea>
-                      <span class="error">*The message is too short.</span> <span class="empty">*This field is required.</span> </label>
-                      <div class="btns"><a data-type="reset" class="button" >clear</a><a data-type="submit" class="button" >send Message</a></div>
+                      <textarea>Votre message</textarea>
+                      <span class="error">*Message invalide (trop court).</span> <span class="empty">*Ce champ est obligatoire.</span> </label>
+                      <div class="btns"><a data-type="reset" class="button" >Effacer</a><a data-type="submit" class="button" >Envoyer le message</a></div>
                   </fieldset>
                 </form>
             </div>
@@ -91,7 +93,7 @@ iscing elit. Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut tellus d
           </div>
       </section> 
     <!--==============================footer=================================-->
-      <?php require('include/footer.html'); ?>
+      <?php require('include/footer.php'); ?>
     </div>
     <a class="top" onClick="goToByScroll('top'); return false;" href="#"><span>TOP</span></a>    
 </div>    

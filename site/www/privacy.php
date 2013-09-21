@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <?php require('include/header.html'); ?>
+    <?php require('include/header.php'); ?>
     <script type="text/javascript" src="js/jquery-1.6.2.min.js"></script>
     <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
     <script type="text/javascript" src="js/cufon-yui.js"></script>
@@ -27,8 +27,8 @@
 <body>
 <!--==============================header=================================-->
   <header id="top">
-      <?php require('include/logo.html'); ?>
-      <?php require('include/menu.html'); ?>
+      <?php require('include/logo.php'); ?>
+      <?php require('include/menu.php'); ?>
       <div class="clear"></div>
   </header> 
 <div class="max">   
@@ -58,7 +58,7 @@
           </div>
       </section> 
     <!--==============================footer=================================-->
-      <?php require('include/footer.html'); ?>
+      <?php require('include/footer.php'); ?>
     </div>
     <a class="top" onClick="goToByScroll('top'); return false;" href="#"><span>TOP</span></a>    
 </div>    
