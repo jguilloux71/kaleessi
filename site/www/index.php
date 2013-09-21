@@ -56,10 +56,10 @@
             <div class="grid_12">
                 <div class="slider">
                   <ul class="items">
-                     <li><img src="images/slider-1.jpg" alt=""><div class="banner slider-text"><strong>Creative Make Up</strong></div></li>
-                     <li><img src="images/slider-2.jpg" alt=""><div class="banner slider-text"><strong>Creative Hair Cuts</strong></div><strong></strong></li>
-                     <li><img src="images/slider-3.jpg" alt=""><div class="banner slider-text"><strong>Henna Body Art</strong></div></li>
-                     <li><img src="images/slider-4.jpg" alt=""><div class="banner slider-text"><strong>Skin Care</strong></div></li>
+                     <li><img src="images/slider-1.jpg" alt=""><div class="banner slider-text"><strong>Vernis permenant</strong></div></li>
+                     <li><img src="images/slider-2.jpg" alt=""><div class="banner slider-text"><strong>French manucure</strong></div><strong></strong></li>
+                     <li><img src="images/slider-3.jpg" alt=""><div class="banner slider-text"><strong>Nail art</strong></div></li>
+                     <li><img src="images/slider-4.jpg" alt=""><div class="banner slider-text"><strong>Graine de plaisir</strong></div></li>
                   </ul>
                   <div class="pagination">
                       <ul>
