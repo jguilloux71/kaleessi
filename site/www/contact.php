@@ -63,16 +63,7 @@
                         <div class="block-3-text">
                           <p>Avec ou sans rendez-vous</p>
                           <p>&nbsp;</p>
-                          <table class="color-6">
-                            <tr><td>Lundi</td><td>&nbsp;: 14H00 - 18H00</td></tr>
-                            <tr><td>Mardi</td><td>&nbsp;: 09H30 - 18H00 (non-stop)</td></tr>
-                            <tr><td>Mercredi</td><td>&nbsp;: 09H00 - 13H00</td></tr>
-                            <tr><td>Jeudi</td><td>&nbsp;: 09H30 - 18H00 (non-stop)</td></tr>
-                            <tr><td>Vendredi</td><td>&nbsp;: 09H30 - 18H00 (non-stop)</td></tr>
-                            <tr><td>Samedi</td><td>&nbsp;: 09H00 - 13H00</td></tr>
-                          </table>
-                          <p>&nbsp;</p>
-                          <p class="color-6">(Sur rendez-vous le samedi apr&egrave;s-midi)</p>
+                          <?php require('include/hours.php'); ?>
 				        </div>
                     </div>
                 </div>
@@ -80,28 +71,7 @@
             <div class="grid_12 line-1"></div>
             <div class="grid_12">
             	<h2 class="top-2">Formulaire de contact</h2>
-                <form id="form">
-                  <div class="success">Votre message a &eacute;t&eacute; correctement envoy&eacute;. Merci.<br>
-                  <strong>Nous entrerons en contact avec vous le plus rapidement possible !</strong> </div>
-                  <fieldset>
-                    <label class="name">
-                      <input type="text" value="Nom et prénom" class="fleft">
-                        <span class="error error-empty">*Nom invalide.</span><span class="empty error-empty">*Ce champ est obligatoire.</span> </label>
-                      <div class="clear"></div>
-                    <label class="email">
-                      <input type="text" value="Adresse email" class="fleft">
-                        <span class="error error-empty">*Adresse email invalide.</span><span class="empty error-empty">*Ce champ est obligatoire.</span> </label>
-                      <div class="clear"></div>
-                    <label class="phone">
-                      <input type="tel" value="Téléphone" class="fleft">
-                        <span class="error error-empty">*Num&eacute;ro de t&eacute;l&eacute;phone invalide.</span><span class="empty error-empty">*Ce champ est obligatoire.</span> </label>
-                      <div class="clear"></div>
-                    <label class="message">
-                      <textarea>Votre message</textarea>
-                      <span class="error">*Message invalide (trop court).</span> <span class="empty">*Ce champ est obligatoire.</span> </label>
-                      <div class="btns"><a data-type="reset" class="button" >Effacer</a><a data-type="submit" class="button" >Envoyer le message</a></div>
-                  </fieldset>
-                </form>
+                <?php require('include/form-contact.php'); ?>
             </div>
             <div class="clear"></div>
           </div>

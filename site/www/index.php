@@ -95,16 +95,7 @@ ertase volupta quia voluptasit.</p>
                     <h5>Nos Horaires</h5>
                     <div class="block-3-text">
                         <p class="color-5">Avec ou sans rendez-vous</p>
-                        <table class="color-6">
-                          <tr><td>Lundi</td><td>&nbsp;: 14H00 - 18H00</td></tr>
-                          <tr><td>Mardi</td><td>&nbsp;: 09H30 - 18H00 (non-stop)</td></tr>
-                          <tr><td>Mercredi</td><td>&nbsp;: 09H00 - 13H00</td></tr>
-                          <tr><td>Jeudi</td><td>&nbsp;: 09H30 - 18H00 (non-stop)</td></tr>
-                          <tr><td>Vendredi</td><td>&nbsp;: 09H30 - 18H00 (non-stop)</td></tr>
-                          <tr><td>Samedi</td><td>&nbsp;: 09H00 - 13H00</td></tr>
-                        </table>
-                        <p>&nbsp;</p>
-                        <p class="color-6">(Sur rendez-vous le samedi après-midi)</p>
+                        <?php require('include/hours.php'); ?>
 					</div>
                 </article>    
             </div>
