@@ -27,7 +27,7 @@ function json($code, $msg) {
 	// on vérifie que la code entré est valide
 	$code_is_valid = 0;
 	if ($_SESSION['secure_code'] != $md5_form_secure_code) {
-        json(1, "secure code is not valid!");
+        json(2, "secure code is not valid!");
 	}
 
 	$owner_email = $_POST["owner_email"];

@@ -1,11 +1,15 @@
 <form id="form">
   <div class="success">
-    Votre message a &eacute;t&eacute; correctement envoy&eacute;. Merci.<br>
-    <strong>Nous entrerons en contact avec vous le plus rapidement possible !</strong>
+    <strong>Votre message a &eacute;t&eacute; correctement envoy&eacute;. Merci.</strong><br>
+    Nous entrerons en contact avec vous le plus rapidement possible !
   </div>
 
   <div class="failed">
-    <strong>Impossible d'envoyer votre message suite à un problème technique !</strong>
+    <strong>Impossible d'envoyer votre message suite &agrave; un probl&egrave;me technique !</strong>
+  </div>
+
+  <div class="failed-captcha">
+    <strong>Le code de s&eacute;curit&eacute; ne correspond pas au texte de l'image !</strong>
   </div>
 
   <fieldset>
