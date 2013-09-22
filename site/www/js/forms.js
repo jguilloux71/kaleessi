@@ -11,9 +11,11 @@
 						emptyCl:'empty',
 						invalidCl:'invalid',
 						successCl:'success',
+						failedCl:'failed',
 						successShow:'4000',
+						failedShow:'4000',
 						mailHandlerURL:'bin/MailHandler.php',
-						ownerEmail:'support@guardlex.com',
+						ownerEmail:'contact@kaleessi.fr',
 						stripHTML:true,
 						smtpMailServer:'localhost',
 						targets:'input,textarea',
@@ -25,7 +27,8 @@
 							".email":{rx:/^(("[\w-\s]+")|([\w-]+(?:\.[\w-]+)*)|("[\w-\s]+")([\w-]+(?:\.[\w-]+)*))(@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$)|(@\[?((25[0-5]\.|2[0-4][0-9]\.|1[0-9]{2}\.|[0-9]{1,2}\.))((25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\.){2}(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\]?$)/i,target:'input'},
 							".phone":{rx:/^\+?(\d[\d\-\+\(\) ]{5,}\d$)/,target:'input'},
 							".fax":{rx:/^\+?(\d[\d\-\+\(\) ]{5,}\d$)/,target:'input'},
-							".message":{rx:/.{20}/,target:'textarea'}
+							".message":{rx:/.{20}/,target:'textarea'},
+							".captcha":{rx:/^[a-zA-Z0-9]{6}$/,target:'input'}
 						},
 						preFu:function(){
 							_.labels.each(function(){
@@ -64,6 +67,7 @@
 								label.find('.'+_.errorCl+',.'+_.emptyCl).css({display:'block'}).hide()
 							})
 							_.success=$('.'+_.successCl,_.form).hide()
+							_.failed=$('.'+_.failedCl,_.form).hide()
 						},
 						isValid:function(el){
 							var ret=true,
@@ -108,12 +112,19 @@
 										fax:$('.fax input',_.form).val()||'nope',
 										state:$('.state input',_.form).val()||'nope',
 										message:$('.message textarea',_.form).val()||'nope',
+										captcha:$('.captcha input',_.form).val()||'nope',
 										owner_email:_.ownerEmail,
 										stripHTML:_.stripHTML
 									},
-									success: function(){
-										_.showFu()
-									}
+                                    dataType: 'json',
+									success: function(json){
+                                        if (json.code == 0) {
+										    _.showFu()
+                                        }
+                                        else {
+										    _.showErr(json.msg)
+                                        }
+									},
 								})			
 						},
 						showFu:function(){
@@ -122,6 +133,13 @@
 									_.success.slideUp()
 									_.form.trigger('reset')
 								},_.successShow)
+							})
+						},
+						showErr:function(msg){
+							_.failed.slideDown(function(){
+								setTimeout(function(){
+									_.failed.slideUp()
+								},_.failedShow)
 							})
 						},
 						controlsFu:function(){

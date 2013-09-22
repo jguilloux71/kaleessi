@@ -267,7 +267,7 @@ dl a:hover {color:#e39efd; text-decoration:underline;}
 	margin-top:3px;
 }
 #form .error-empty {margin: 4px 0 0 15px !important; display:none; float:left;}
-#form .success {display:none; margin-bottom:5px;}
+#form .success, #form .failed {display:none; margin-bottom:5px;}
 .btns {
     padding: 31px 5px 5px 0;
 	text-align:right;
