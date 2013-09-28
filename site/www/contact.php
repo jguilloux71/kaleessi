@@ -18,7 +18,7 @@
 		}
 		$(function(){
 			 $('#form').forms({
-			  ownerEmail:'#'
+			  ownerEmail:'contact@kaleessi.fr'
 			 })
 		});
 	</script>
