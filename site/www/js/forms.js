@@ -13,14 +13,16 @@
                         successCl:'success',
                         failedCl:'failed',
                         failedCaptchaCl:'failed-captcha',
+                        failedAlreadyCl:'failed-already',
                         successShow:'4000',
                         failedShow:'4000',
                         mailHandlerURL:'bin/MailHandler.php',
+                        newsletterHandlerURL:'bin/NewsletterHandler.php',
                         ownerEmail:'contact@kaleessi.fr',
                         stripHTML:true,
                         smtpMailServer:'localhost',
                         targets:'input,textarea',
-                        controls:'a[data-type=reset],a[data-type=submit]',
+                        controls:'a[data-type=reset],a[data-type=submit],a[data-type=submitnews]',
                         validate:true,
                         rx:{
                             ".name":{rx:/^[a-zA-Z'][a-zA-Z-' ]+[a-zA-Z']?$/,target:'input'},
@@ -70,6 +72,7 @@
                             _.success=$('.'+_.successCl,_.form).hide()
                             _.failed=$('.'+_.failedCl,_.form).hide()
                             _.failedcaptcha=$('.' + _.failedCaptchaCl,_.form).hide()
+                            _.failedalready=$('.' + _.failedAlreadyCl,_.form).hide()
                         },
                         isValid:function(el){
                             var ret=true,
@@ -132,6 +135,34 @@
                                     },
                                 })            
                         },
+                        submitNews:function(){
+                            _.validateFu()
+                            if(!_.form.has('.'+_.invalidCl).length) {
+                                if (!confirm("Confirmez-vous votre inscription ?")) {
+                                    _.form.trigger('reset')
+                                    return
+                                }
+                                $.ajax({
+                                    type: "POST",
+                                    url:_.newsletterHandlerURL,
+                                    data:{
+                                        email:$('.email input',_.form).val() || 'nope',
+                                    },
+                                    dataType: 'json',
+                                    success: function(json){
+                                        if (json.code == 0) {
+                                            _.showFu()
+                                        }
+                                        else if (json.code == 2) {
+                                            _.showErrNewsletterAlready()
+                                        }
+                                        else {
+                                            _.showErrNewsletter()
+                                        }
+                                    },
+                                })
+                            }
+                        },
                         showFu:function(){
                             _.success.slideDown(function(){
                                 setTimeout(function(){
@@ -144,6 +175,20 @@
                             _.failed.slideDown(function(){
                                 setTimeout(function(){
                                     _.failed.slideUp()
+                                },_.failedShow)
+                            })
+                        },
+                        showErrNewsletter:function(){
+                            _.failed.slideDown(function(){
+                                setTimeout(function(){
+                                    _.failed.slideUp()
+                                },_.failedShow)
+                            })
+                        },
+                        showErrNewsletterAlready:function(){
+                            _.failedalready.slideDown(function(){
+                                setTimeout(function(){
+                                    _.failedalready.slideUp()
                                 },_.failedShow)
                             })
                         },
@@ -189,6 +234,13 @@
                                 .bind('submit',function(){
                                     if(_.validate)
                                         _.submitFu()
+                                    else
+                                        _.form[0].submit()
+                                    return false
+                                })
+                                .bind('submitnews',function(){
+                                    if(_.validate)
+                                        _.submitNews()
                                     else
                                         _.form[0].submit()
                                     return false

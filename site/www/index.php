@@ -12,6 +12,7 @@
     <script type="text/javascript" src="js/tms-0.3.js"></script>
 	<script type="text/javascript" src="js/tms_presets.js"></script>
     <script type="text/javascript" src="js/jquery.equalheights.js"></script>
+    <script type="text/javascript" src="js/forms.js"></script>
     <script type="text/javascript" src="js/FF-cash.js"></script>
     <script type="text/javascript">
 	$(window).load(function(){
@@ -32,6 +33,10 @@
 		{
 			$('html,body').animate({scrollTop: $("#"+id).offset().top},'slow');
 		}
+	$(function(){
+	    $('#form_newsletter').forms({
+        })
+    });
 	</script>
 	<!--[if lt IE 7]>
   		<div style='text-align:center'><a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg"border="0"alt=""/></a></div>  
@@ -96,15 +101,10 @@ fugised quia consequ lertyuntures.</p>
                     </div>
            		</article>
             </div>
-            <div class="grid_3">
-            	<article class="block-5">
-                    <h5>Retrouvez-nous</h5>
-                    <ul class="list-1">
-                        <li><a href="#">Facebook</a></li>
-                        <li><a href="#">Twitter</a></li>
-                    </ul>
-                </article>    
-            </div>
+
+            <?php require('include/newsletter.php'); ?>
+            <?php require('include/retrieve-us.php'); ?>
+
             <div class="clear"></div>
           </div>
       </section> 

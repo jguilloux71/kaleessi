@@ -33,7 +33,7 @@ function json($code, $msg) {
 	$owner_email = $_POST["owner_email"];
 	$headers  = 'MIME-Version: 1.0' . "\r\n";
 	$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
-	$headers .= 'From:' . $_POST["email"] . "\r\n";
+	$headers .= 'From:' . $_POST["email"] . "\n";
 	$subject = 'A message from your site visitor ' . $_POST["name"];
 	$messageBody = "";
 	
