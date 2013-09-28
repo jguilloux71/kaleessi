@@ -7,6 +7,13 @@ function json($code, $msg) {
     exit ($code);
 }
 
+function replace_with_br($msg) {
+    $order = array("\r\n", "\n", "\r");
+    $replace = '<br/>';
+
+    return str_replace($order, $replace, $msg);
+}
+
 
     session_start();
 
@@ -31,40 +38,30 @@ function json($code, $msg) {
 	}
 
 	$owner_email = $_POST["owner_email"];
-	$headers  = 'MIME-Version: 1.0' . "\r\n";
+	$headers  = 'From:' . $_POST["email"] . " <kaleessi>" . "\r\n";
+	$headers .= 'MIME-Version: 1.0' . "\r\n";
 	$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
-	$headers .= 'From:' . $_POST["email"] . "\n";
-	$subject = 'A message from your site visitor ' . $_POST["name"];
-	$messageBody = "";
+//	$headers .= 'Content-Transfer-Encoding: quoted-printable' . "\r\n";
+	$subject = 'Un message en provenance de kaleessi.fr - ' . $_POST["name"];
+
+	$messageBody = "<html>\n";
 	
 	if($_POST['name']!='nope'){
-		$messageBody .= '<p>Visitor: ' . $_POST["name"] . '</p>' . "\n";
-		$messageBody .= '<br>' . "\n";
+		$messageBody .= '<p><strong>Nom du visiteur :</strong> ' . strip_tags($_POST["name"]) . '</p>' . "\n";
 	}
 	if($_POST['email']!='nope'){
-		$messageBody .= '<p>Email Address: ' . $_POST['email'] . '</p>' . "\n";
-		$messageBody .= '<br>' . "\n";
-	}
-	if($_POST['state']!='nope'){		
-		$messageBody .= '<p>State: ' . $_POST['state'] . '</p>' . "\n";
-		$messageBody .= '<br>' . "\n";
+		$messageBody .= '<p><strong>Adresse mail :</strong> ' . strip_tags($_POST['email']) . '</p>' . "\n";
 	}
 	if($_POST['phone']!='nope'){		
-		$messageBody .= '<p>Phone Number: ' . $_POST['phone'] . '</p>' . "\n";
-		$messageBody .= '<br>' . "\n";
+		$messageBody .= '<p><strong>T&eacute;l&eacute;phone :</strong> ' . strip_tags($_POST['phone']) . '</p>' . "\n";
 	}	
-	if($_POST['fax']!='nope'){		
-		$messageBody .= '<p>Fax Number: ' . $_POST['fax'] . '</p>' . "\n";
-		$messageBody .= '<br>' . "\n";
-	}
 	if($_POST['message']!='nope'){
-		$messageBody .= '<p>Message: ' . $_POST['message'] . '</p>' . "\n";
-	}
-	
-	if($_POST["stripHTML"] == 'true'){
-		$messageBody = strip_tags($messageBody);
+		$messageBody .= '<p><strong>Message :</strong><br/>' . "\n";
+        $messageBody .= replace_with_br(strip_tags($_POST['message'])) . '</p>' . "\n";
 	}
 
+	$messageBody .= "</html>\n";
+	
 	try {
 		if (!mail($owner_email, $subject, $messageBody, $headers)) {
 			throw new Exception('Unable to send mail');

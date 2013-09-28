@@ -165,9 +165,9 @@
                         },
                         showFu:function(){
                             _.success.slideDown(function(){
+                                _.form.trigger('reset')
                                 setTimeout(function(){
                                     _.success.slideUp()
-                                    _.form.trigger('reset')
                                 },_.successShow)
                             })
                         },
