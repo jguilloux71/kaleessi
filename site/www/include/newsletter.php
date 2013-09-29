@@ -2,7 +2,7 @@
   <article class="block-5">
     <h5>Lettre d'information</h5>
     <div class="color-6">
-      Rester inform&eacute;é des nouvelles promotions, nouvelles prestations, ....
+      Rester inform&eacute; des nouvelles promotions, nouvelles prestations, ....
     </div>
     <br/>
     <form id="form_newsletter">
