@@ -87,21 +87,9 @@
                         <p class="color-5">Avec ou sans rendez-vous</p>
                         <?php require('include/hours.php'); ?>
 					</div>
-                </article>    
+                </article>
             </div>
-            <div class="grid_5">
-            	<article class="block-4 maxheight">
-					<a href="saloon.php#gdp"><img src="images/graine-de-plaisir/logo-graine-de-plaisir-full.png" alt="Graine de Plaisir"></a>
-                    <div class="block-4-text">
-                      <p class="color-5">Kertyade Fertasera Miaseras Lertyas</p>
-                      <p>Malerosac cusa ntium reuede eareicta lertyasera
-su explicabonemo enim ipsam lertase volupta lertas
-fugised quia consequ lertyuntures.</p>
-					  <a href="saloon.php#gdp" class="button">En savoir plus</a>
-                    </div>
-           		</article>
-            </div>
-
+            <?php require('include/gdp-intro.php'); ?>
             <?php require('include/newsletter.php'); ?>
             <?php require('include/retrieve-us.php'); ?>
 
