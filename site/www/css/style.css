@@ -291,3 +291,25 @@ dl a:hover {color:#e39efd; text-decoration:underline;}
 .btns a {
 	margin-left:9px;
 }
+
+ul.leaders {
+    max-width: 60em;
+    padding: 0;
+    overflow-x: hidden;
+    list-style: none;
+}
+ul.leaders li:before {
+    float: left;
+    width: 0;
+    white-space: nowrap;
+    content: ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ";
+}
+ul.leaders span:first-child {
+    padding-right: 0.33em;
+    background: #1c1c1b;
+}
+ul.leaders span + span {
+    float: right;
+    padding-left: 0.33em;
+    background: #1c1c1b;
+}
