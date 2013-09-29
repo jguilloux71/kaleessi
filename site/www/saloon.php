@@ -42,9 +42,9 @@
       <section id="content">
           <div class="container_12">
             <div class="grid_8 page-2-col-1">
-            	<h2 class="pad-1">Tired of Your Look?</h2>
+            	<h2 class="pad-1">KALESSI</h2>
                 <div class="wrapper">
-                	<img src="images/page-2-img-1.jpg" alt="" class="img-indent">
+                	<img src="images/kaleessi/kaleessi-pink-black-512.png" alt="" class="img-indent" width="100" />
                     <div class="extra-wrap">
                     	<p class="color-8">Kertyade Fertasera Miaseras Lertyas</p>
                         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla dui. Fusce feugiat malesuada.</p>
@@ -79,9 +79,9 @@
             </div>
             <div class="grid_12 line-1"></div>
             <div class="grid_12 page-2-row-1">
-            	<h2 class="pad-2">How to Choose a New Hair Style!</h2>
+            	<h2 class="pad-2">GRAINE DE PLAISIR</h2>
                 <div class="wrapper">
-                	<img src="images/page-2-img-3.jpg" alt="" class="img-indent-2">
+                	<img src="images/graine-de-plaisir/logo-graine-de-plaisir-full.png" alt="" class="img-indent-2">
                     <div class="extra-wrap">
                     	<p class="color-5">Aliquam dapibus tincidunt metus. Praesent justo dolor, lobortis quis, lobo
 rtis dignissim, pulvinar ac, lorem. Vestibulum sed ante.</p>
@@ -90,26 +90,7 @@ rtis dignissim, pulvinar ac, lorem. Vestibulum sed ante.</p>
                     </div>
                 </div>
             </div>
-            <div class="grid_12 line-1"></div>
-            <div class="grid_12">
-            	<h2 class="pad-2">Best Masters</h2>
-            </div>  
-            <div class="grid_3 page-2-box">
-            	<a class="lightbox-image" data-gal="prettyPhoto[1]" href="images/image-blank.png"><img src="images/page-2-img-4.jpg" alt=""></a>
-                <p><a href="#" class="color-9">Julie Herzigova</a></p>
-            </div>  
-            <div class="grid_3 page-2-box">
-            	<a class="lightbox-image" data-gal="prettyPhoto[1]" href="images/image-blank.png"><img src="images/page-2-img-5.jpg" alt=""></a>
-                <p><a href="#" class="color-9">Alan Smith</a></p>
-            </div>
-            <div class="grid_3 page-2-box">
-            	<a class="lightbox-image" data-gal="prettyPhoto[1]" href="images/image-blank.png"><img src="images/page-2-img-6.jpg" alt=""></a>
-                <p><a href="#" class="color-9">Camala Haddon</a></p>
-            </div>
-            <div class="grid_3 page-2-box">
-            	<a class="lightbox-image" data-gal="prettyPhoto[1]" href="images/image-blank.png"><img src="images/page-2-img-7.jpg" alt=""></a>
-                <p><a href="#" class="color-9">Patrick Pool</a></p>
-            </div>
+
             <div class="clear"></div>
           </div>
       </section> 

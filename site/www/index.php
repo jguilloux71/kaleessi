@@ -58,25 +58,7 @@
     <!--==============================content================================-->
       <section id="content">
           <div class="container_12">
-            <div class="grid_12">
-                <div class="slider">
-                  <ul class="items">
-                     <li><img src="images/slider-1.jpg" alt=""><div class="banner slider-text"><strong>Vernis permanent</strong></div></li>
-                     <li><img src="images/slider-2.jpg" alt=""><div class="banner slider-text"><strong>French manucure</strong></div><strong></strong></li>
-                     <li><img src="images/slider-3.jpg" alt=""><div class="banner slider-text"><strong>Nail art</strong></div></li>
-                     <li><img src="images/slider-4.jpg" alt=""><div class="banner slider-text"><strong>Graine de plaisir</strong></div></li>
-                  </ul>
-                  <div class="pagination">
-                      <ul>
-                        <li><a href="#"><img src="images/slider-1-small.jpg" alt=""></a></li>
-                        <li><a href="#"><img src="images/slider-2-small.jpg" alt=""></a></li>
-                        <li><a href="#"><img src="images/slider-3-small.jpg" alt=""></a></li>
-                        <li><a href="#"><img src="images/slider-4-small.jpg" alt=""></a></li>
-                      </ul>
-                  </div>  
-                </div>
-            </div>
-
+            <?php require('include/panorama.php'); ?>
             <?php require('include/welcome.php'); ?>
             <?php require('include/misc.php'); ?>
 
