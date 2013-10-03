@@ -13,9 +13,9 @@ ul.sf-menu>li.current>a, ul.sf-menu>li.sfHover>a, ul.sf-menu>li>a:hover {}
 ul.sf-menu>li.sfHover>a.sf-with-ul>span.sf-sub-indicator {background:url(../images/menu-button-active.png) 0 0 no-repeat; display:block; width:21px; height:16px; position:absolute; bottom:-17px; right:50%; margin-right:-9px; }
 ul.sf-menu>li.sfHover>a.sf-with-ul>span.sf-sub-indicator, ul.sf-menu>li.current>a.sf-with-ul>span.sf-sub-indicator {background:url(../images/menu-button-active.png) 0 0 no-repeat;}
 
-ul.sf-menu li>ul {background: url(../images/menu-ul-1.png) 0 0 no-repeat #b52a68; width:99px; padding:7px 14px 6px 14px; border-radius:5px; top:62px; left:8px; }
+ul.sf-menu li>ul {background: url(../images/menu-ul-1.png) 0 0 no-repeat #b52a68; width:120px; padding:7px 14px 6px 14px; border-radius:5px; top:62px; left:8px; }
 ul.sf-menu li>ul>li:first-child {border:none;}
-ul.sf-menu li>ul>li { background:transparent; border-top:#bf497d 1px solid; width:99px; }
+ul.sf-menu li>ul>li { background:transparent; border-top:#bf497d 1px solid; width:120px; }
 ul.sf-menu li>ul>li>a { padding:6px 3px 7px 6px; text-align:left; font-size:17px; }
 ul.sf-menu li>ul>li:hover, ul.sf-menu li.sfHover ul>li.sfHover{ }
 ul.sf-menu li.sfHover>ul>li:hover>a {color:#ffb1ee;}
