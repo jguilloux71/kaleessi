@@ -65,6 +65,11 @@ ul.list-2 li {background:url(../images/marker-1.png) 0px 11px no-repeat; padding
 ul.list-2 li a { font-size:14px; color:#dabcdc; line-height:20px; margin-left:33px; text-transform:uppercase; display:inline-block;}
 ul.list-2 li a:hover {text-decoration:none; color:#e39efd;}
 
+ul.list-3 {list-style-image:none; }
+ul.list-3 li {background:url(../images/marker-1.png) 0px 11px no-repeat; padding:9px 0 2px 0;}
+ul.list-3 li a { font-size:14px; color: #695269; line-height:20px; margin-left:23px; display:inline-block;}
+ul.list-2 li a:hover {text-decoration:none; color:#695269;}
+
 /******************************************************************/
 .clear {clear:both; line-height:0; font-size:0; width:100%;}
 .wrapper {width:100%; overflow:hidden; position:relative}
