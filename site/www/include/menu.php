@@ -3,7 +3,7 @@
     <li><a href="index.php">Accueil</a></li>
     <li><a href="prices.php">Prestations/Tarifs</a>
       <ul>
-        <li><a href="data/prices.pdf">Telecharger</a></li>
+        <li><a href="data/kaleessi-grille-prestations-tarifs.pdf">Telecharger</a></li>
       </ul>
     </li>
     <li><a href="saloon.php">Salon</a>
