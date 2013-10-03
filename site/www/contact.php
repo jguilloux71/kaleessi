@@ -56,7 +56,7 @@
                         <div class="block-3-text first">
                         <dl>
                           <dd>T&eacute;l&eacute;phone&nbsp;:&nbsp;09 73 66 41 05</dd>
-                          <dd>E-mail: &nbsp;&nbsp;&nbsp;<a href="#" class="color-12">contact@kaleessi.fr</a></dd>
+                          <dd>E-mail: &nbsp;&nbsp;&nbsp;<a href="mailto:contact@kaleessi.fr" class="color-12">contact@kaleessi.fr</a></dd>
 				        </dl>
                         </div>
                         <h6>Nos Horaires</h6>
