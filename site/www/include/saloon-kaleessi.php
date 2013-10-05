@@ -1,7 +1,7 @@
 <div class="grid_12">
   <h2 class="pad-1">KALEESSI</h2>
   <div class="wrapper">
-    <img src="images/kaleessi/kaleessi-pink-black-512.png" alt="" class="img-indent" width="100" />
+    <img src="images/kaleessi/kaleessi-main-vernis.jpg" alt="" class="img-indent" width="150" />
     <div class="extra-wrap">
       <p class="color-5">Kaleessi, le plaisir jusqu’au bout des doigts</p>
       <br/>

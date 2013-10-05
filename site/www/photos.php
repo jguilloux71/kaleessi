@@ -43,132 +43,23 @@
       <section id="content">
           <div class="container_12">
             <div class="grid_12 page-3-row-1">
-            	<h2 class="pad-3">Hair Portfolio</h2>
-                <p>Morbi nunc odio, gravida at, cursus nec, luctus a, lorem. Maecenas tristique orci ac sem. Duis ultricies pharetra magna. Donec accumsan. malesuada orci. 
-Donec sit amet eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapi
-bus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis.</p>
+            	<h2 class="pad-3">Photos</h2>
             </div>
             <div class="grid_3">
                 <figure class="page-3-box">
                     <a href="#" class="hover-caption">
-                        <img src="images/page-3-img-1.jpg" alt="">
-                        <div class="caption">hairstyle: Marta</div>
+                        <img src="images/kaleessi/kaleessi-main-vernis.jpg" alt="" width="300" />
+                        <div class="caption">Nail art</div>
                     </a>
                 </figure>    
             </div>
             <div class="grid_3">
                 <figure class="page-3-box">
                     <a href="#" class="hover-caption">
-                        <img src="images/page-3-img-2.jpg" alt="">
-                        <div class="caption">hairstyle: Isabella</div>
+                        <img src="images/kaleessi/creation/vernis-permanent-1.jpg" alt="" width="320" />
+                        <div class="caption">Vernis permanent</div>
                     </a>
                 </figure>    
-            </div>
-            <div class="grid_3">
-                <figure class="page-3-box">
-                    <a href="#" class="hover-caption">
-                        <img src="images/page-3-img-3.jpg" alt="">
-                        <div class="caption">hairstyle: Sophia</div>
-                    </a>
-                </figure>    
-            </div>
-            <div class="grid_3">
-                <figure class="page-3-box">
-                    <a href="#" class="hover-caption">
-                        <img src="images/page-3-img-4.jpg" alt="">
-                        <div class="caption">hairstyle: Jacob</div>
-                    </a>
-                </figure>    
-            </div>
-            <div class="grid_3">
-                <figure class="page-3-box">
-                    <a href="#" class="hover-caption">
-                        <img src="images/page-3-img-5.jpg" alt="">
-                        <div class="caption">hairstyle: Emma</div>
-                    </a>
-                </figure>    
-            </div>
-            <div class="grid_3">
-                <figure class="page-3-box">
-                    <a href="#" class="hover-caption">
-                        <img src="images/page-3-img-6.jpg" alt="">
-                        <div class="caption">hairstyle: Olivia</div>
-                    </a>
-                </figure>    
-            </div>
-            <div class="grid_3">
-                <figure class="page-3-box">
-                    <a href="#" class="hover-caption">
-                        <img src="images/page-3-img-7.jpg" alt="">
-                        <div class="caption">hairstyle: Ethan</div>
-                    </a>
-                </figure>    
-            </div>
-            <div class="grid_3">
-                <figure class="page-3-box">
-                    <a href="#" class="hover-caption">
-                        <img src="images/page-3-img-8.jpg" alt="">
-                        <div class="caption">hairstyle: Ava</div>
-                    </a>
-                </figure>    
-            </div>
-            <div class="grid_3">
-                <figure class="page-3-box">
-                    <a href="#" class="hover-caption">
-                        <img src="images/page-3-img-9.jpg" alt="">
-                        <div class="caption">hairstyle: Michael</div>
-                    </a>
-                </figure>    
-            </div>
-            <div class="grid_3">
-                <figure class="page-3-box">
-                    <a href="#" class="hover-caption">
-                        <img src="images/page-3-img-10.jpg" alt="">
-                        <div class="caption">hairstyle: Emily</div>
-                    </a>
-                </figure>    
-            </div>
-            <div class="grid_3">
-                <figure class="page-3-box">
-                    <a href="#" class="hover-caption">
-                        <img src="images/page-3-img-11.jpg" alt="">
-                        <div class="caption">hairstyle: Abigail</div>
-                    </a>
-                </figure>    
-            </div>
-            <div class="grid_3">
-                <figure class="page-3-box">
-                    <a href="#" class="hover-caption">
-                        <img src="images/page-3-img-12.jpg" alt="">
-                        <div class="caption">hairstyle: Madison</div>
-                    </a>
-                </figure>    
-            </div>
-            <div class="grid_3">
-                <figure class="page-3-box">
-                    <a href="#" class="hover-caption">
-                        <img src="images/page-3-img-13.jpg" alt="">
-                        <div class="caption">hairstyle: Chloe</div>
-                    </a>
-                </figure>    
-            </div>
-            <div class="grid_3">
-                <figure class="page-3-box">
-                    <a href="#" class="hover-caption">
-                        <img src="images/page-3-img-14.jpg" alt="">
-                        <div class="caption">hairstyle: Mia</div>
-                    </a>
-                </figure>    
-            </div>
-            <div class="grid_3">
-                <figure class="page-3-box">
-                    <a href="#" class="hover-caption">
-                        <img src="images/page-3-img-15.jpg" alt="">
-                        <div class="caption">hairstyle: Kyra</div>
-                    </a>
-                </figure>    
-            </div>
-            <div class="grid_3">
             </div>
             <div class="clear"></div>
           </div>
