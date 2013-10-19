@@ -255,6 +255,18 @@ dl a:hover {color:#e39efd; text-decoration:underline;}
     width: 200px;
     height:18px;
 }
+#form_resiliation input {
+    border:#3f2a40 1px solid;
+    background:#2b202c;
+    box-shadow: 0 0 5px rgba(63, 42, 64, 1);
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size:13px;
+    color:#695269;
+    padding:9px 6px 10px 9px;
+    outline: medium none;
+    width: 400px;
+    height:18px;
+}
 #form textarea {
 	border:#3f2a40 1px solid;
 	background:#2b202c;

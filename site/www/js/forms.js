@@ -18,11 +18,12 @@
                         failedShow:'4000',
                         mailHandlerURL:'bin/MailHandler.php',
                         newsletterHandlerURL:'bin/NewsletterHandler.php',
+                        newsletterUnsubscribeHandlerURL:'bin/NewsletterUnsubscribeHandler.php',
                         ownerEmail:'contact@kaleessi.fr',
                         stripHTML:true,
                         smtpMailServer:'localhost',
                         targets:'input,textarea',
-                        controls:'a[data-type=reset],a[data-type=submit],a[data-type=submitnews]',
+                        controls:'a[data-type=reset],a[data-type=submit],a[data-type=submitnews],a[data-type=submitnewsunsubscribe]',
                         validate:true,
                         rx:{
                             ".name":{rx:/^[a-zA-Z'][a-zA-Z-' ]+[a-zA-Z']?$/,target:'input'},
@@ -163,6 +164,32 @@
                                 })
                             }
                         },
+                        submitNewsUnsubscribe:function(){
+                            _.validateFu()
+                            if(!_.form.has('.'+_.invalidCl).length) {
+                                if (!confirm("Confirmez-vous votre désinscription ?")) {
+                                    _.form.trigger('reset')
+                                    return
+                                }
+                                $.ajax({
+                                    type: "POST",
+                                    url:_.newsletterUnsubscribeHandlerURL,
+                                    data:{
+                                        email:$('.email input',_.form).val() || 'nope',
+                                        owner_email:_.ownerEmail,
+                                    },
+                                    dataType: 'json',
+                                    success: function(json){
+                                        if (json.code == 0) {
+                                            _.showFu()
+                                        }
+                                        else {
+                                            _.showErrNewsletterUnsubscribe()
+                                        }
+                                    },
+                                })
+                            }
+                        },
                         showFu:function(){
                             _.success.slideDown(function(){
                                 _.form.trigger('reset')
@@ -189,6 +216,13 @@
                             _.failedalready.slideDown(function(){
                                 setTimeout(function(){
                                     _.failedalready.slideUp()
+                                },_.failedShow)
+                            })
+                        },
+                        showErrNewsletterUnsubscribe:function(){
+                            _.failed.slideDown(function(){
+                                setTimeout(function(){
+                                    _.failed.slideUp()
                                 },_.failedShow)
                             })
                         },
@@ -241,6 +275,13 @@
                                 .bind('submitnews',function(){
                                     if(_.validate)
                                         _.submitNews()
+                                    else
+                                        _.form[0].submit()
+                                    return false
+                                })
+                                .bind('submitnewsunsubscribe',function(){
+                                    if(_.validate)
+                                        _.submitNewsUnsubscribe()
                                     else
                                         _.form[0].submit()
                                     return false
