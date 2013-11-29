@@ -2,8 +2,8 @@
 
 <meta charset="utf-8">
 <meta name="Copyright" content="Kaleessi" />
-<meta name="description" content="Kaleessi est un salon moderne et innovant où la prothésie ongulaire côtoie le plaisir et le bien-être" />
-<meta name="keywords" content="stylisme ongulaire, ongles, ongle, pose, pose ongle, pose d'ongle, main, mains, pied, pieds, macon, mâcon, 71000, 71, graine de plaisir, détente, bien être, bien etre, soin, onglerie, soins, salon, moderne, prothésie, convivialité" />
+<meta name="description" content="Kaleessi, salon de pose d'ongles sur Mâcon est heureux de vous acceuillir dans son univers moderne et innovant où la prothésie ongulaire côtoie le plaisir et le bien-être." />
+<meta name="keywords" content="stylisme ongulaire, ongles, ongle, pose, pose ongle, pose d'ongle, main, mains, pied, pieds, macon, mâcon, 71000, 71, graine de plaisir, détente, bien être, bien etre, soin, onglerie, soins, salon, moderne, prothésie, convivialité, prothésiste ongulaire, prothésie ongulaire" />
 
 <link rel="shortcut icon" type="image/png" href="images/kaleessi/favicon-kaleessi-pink-black.png" />
 <link rel="stylesheet"    type="text/css"  href="css/reset.css"       media="screen" />

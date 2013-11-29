@@ -1,8 +1,9 @@
 <div class="grid_4 block-2">
   <article class="block-2-content">
-    <h4>Promotion</h4>
-    <p class="color-3">Offre d'ouverture exceptionelle</p>
-    <p class="color-4">Une r&eacute;duction exceptionnelle de 20% sur l'ensemble des prestations vous est offerte.</p>
-    <a href="images/kaleessi/reduction-20-percent.png" target="_blank" class="button-1">Imprimer l'offre</a>
+    <h4>Offres Noel</h4>
+    <p class="color-1">Coffrets cadeaux</p>
+    <p class="color-4">Pour vous faire plaisir ou tout simplement faire plaisir pour les fêtes de fin d'années.</p>
+    <p class="color-4">Venez découvrir les coffrets cadeaux spécial Noël. Pour le plaisir des mains et des sens pour toutes !</p>
+    <a href="coffrets.php#coffrets" class="button-1">Voir les coffrets</a>
   </article>
 </div>

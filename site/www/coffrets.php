@@ -42,62 +42,47 @@
     <!--==============================content================================-->
       <section id="content">
           <div class="container_12">
-            <div class="grid_12 page-3-row-1">
-            	<h2 class="pad-3">Photos</h2>
+            <div id="coffrets" class="grid_12 page-3-row-1">
+            	<h2 class="pad-3">Coffrets - Fetes de fin d'annees</h2>
+                <p class="color-5">Pour votre information, tous les coffrets ci-dessous peuvent être modulés à votre guise : couleurs de vernis, type de limes, couleurs de bracelets, formes de pochoirs, ...</p>
             </div>
             <div class="grid_3">
                 <figure class="page-3-box">
-                    <a href="#" class="hover-caption">
-                        <img src="images/kaleessi/kaleessi-main-vernis.jpg" alt="" width="300" />
-                        <div class="caption">Nail art</div>
+                    <a href="images/kaleessi/coffrets/big/102_3619.jpg" class="hover-caption">
+                        <img src="images/kaleessi/coffrets/small/102_3619.jpg" alt="" width="220" />
+                        <div class="caption">12,90 - lime, vernis, pochoirs</div>
                     </a>
                 </figure>    
             </div>
             <div class="grid_3">
                 <figure class="page-3-box">
-                    <a href="images/kaleessi/local/big/devanture.jpg" class="hover-caption">
-                        <img src="images/kaleessi/local/small/devanture.jpg" alt="" width="220" height="230" />
-                        <div class="caption">Vue depuis la rue</div>
+                    <a href="images/kaleessi/coffrets/big/102_3617.jpg" class="hover-caption">
+                        <img src="images/kaleessi/coffrets/small/102_3617.jpg" alt="" width="220" />
+                        <div class="caption">17,90 - lime, vernis, bracelet, pochoirs</div>
                     </a>
                 </figure>    
             </div>
             <div class="grid_3">
                 <figure class="page-3-box">
-                    <a href="images/kaleessi/local/big/devant.jpg" class="hover-caption">
-                        <img src="images/kaleessi/local/small/devant.jpg" alt="" width="220" />
-                        <div class="caption">Vue vers l'exterieur</div>
+                    <a href="images/kaleessi/coffrets/big/102_3624.jpg" class="hover-caption">
+                        <img src="images/kaleessi/coffrets/small/102_3624.jpg" alt="" width="220" />
+                        <div class="caption">29,90 - huile corps, effervescent bain</div>
                     </a>
                 </figure>    
             </div>
             <div class="grid_3">
                 <figure class="page-3-box">
-                    <a href="images/kaleessi/local/big/graine-de-plaisir.jpg" class="hover-caption">
-                        <img src="images/kaleessi/local/small/graine-de-plaisir.jpg" alt="" width="220" />
-                        <div class="caption">Partie Graine de Plaisir</div>
+                    <a href="images/kaleessi/coffrets/big/102_3625.jpg" class="hover-caption">
+                        <img src="images/kaleessi/coffrets/small/102_3625.jpg" alt="" width="220" />
+                        <div class="caption">30,90 - huile massage, "cupcakes" bain</div>
                     </a>
                 </figure>    
             </div>
             <div class="grid_3">
                 <figure class="page-3-box">
-                    <a href="images/kaleessi/local/big/interieur.jpg" class="hover-caption">
-                        <img src="images/kaleessi/local/small/interieur.jpg" alt="" width="220" />
-                        <div class="caption">Interieur du salon</div>
-                    </a>
-                </figure>    
-            </div>
-            <div class="grid_3">
-                <figure class="page-3-box">
-                    <a href="images/kaleessi/local/big/table.jpg" class="hover-caption">
-                        <img src="images/kaleessi/local/small/table.jpg" alt="" width="220" />
-                        <div class="caption">Table de manucure</div>
-                    </a>
-                </figure>    
-            </div>
-            <div class="grid_3">
-                <figure class="page-3-box">
-                    <a href="images/kaleessi/local/big/102_3626.jpg" class="hover-caption">
-                        <img src="images/kaleessi/local/small/102_3626.jpg" alt="" width="220" />
-                        <div class="caption">Presentoir des coffrets de Noel</div>
+                    <a href="images/kaleessi/coffrets/big/102_3623.jpg" class="hover-caption">
+                        <img src="images/kaleessi/coffrets/small/102_3623.jpg" alt="" width="220" />
+                        <div class="caption">34,90 - bougie massage, "cupcake" bain</div>
                     </a>
                 </figure>    
             </div>

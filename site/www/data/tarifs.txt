@@ -1,4 +1,4 @@
-title="Prothesie Ongulaire"
+title="Prothesie Ongulaire (pose d'ongles)"
     subtitle="En Gel"
         prestation="Pose compl&egrave;te avec capsules"
             price="50"
