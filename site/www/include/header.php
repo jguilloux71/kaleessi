@@ -1,4 +1,4 @@
-<title>Kaleessi</title>
+<title>Kaleessi - Pose d'ongles et prothésie ongulaire à Mâcon</title>
 
 <meta charset="utf-8">
 <meta name="Copyright" content="Kaleessi" />
