@@ -1,5 +1,3 @@
-<title>Kaleessi - Pose d'ongles et prothésie ongulaire à Mâcon</title>
-
 <meta charset="utf-8">
 <meta name="Copyright" content="Kaleessi" />
 <meta name="description" content="Kaleessi, salon de pose d'ongles sur Mâcon est heureux de vous acceuillir dans son univers moderne et innovant où la prothésie ongulaire côtoie le plaisir et le bien-être." />
