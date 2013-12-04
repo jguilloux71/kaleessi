@@ -66,7 +66,7 @@
             <?php require('include/welcome.php'); ?>
             <?php require('include/misc.php'); ?>
 
-            <div class="grid_4">
+            <div id="horaires" class="grid_4">
             	<article class="block-3 maxheight">
                     <h5>Nos Horaires</h5>
                     <div class="block-3-text">
