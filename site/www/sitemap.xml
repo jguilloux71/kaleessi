@@ -16,9 +16,6 @@
   <loc>http://www.kaleessi.fr/prices.php</loc>
 </url>
 <url>
-  <loc>http://www.kaleessi.fr/data/kaleessi-grille-prestations-tarifs.pdf</loc>
-</url>
-<url>
   <loc>http://www.kaleessi.fr/saloon.php</loc>
 </url>
 <url>
@@ -38,5 +35,8 @@
 </url>
 <url>
   <loc>http://www.kaleessi.fr/prestations-prothesie.php</loc>
+</url>
+<url>
+  <loc>http://www.kaleessi.fr/data/kaleessi-grille-prestations-tarifs.pdf</loc>
 </url>
 </urlset>
