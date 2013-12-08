@@ -2,6 +2,10 @@
   <div class="slider">
     <ul class="items">
       <li>
+        <img src="images/kaleessi/panorama/miss-saone-et-loire.png" alt="">
+        <div class="banner slider-text"><strong>Miss Saone-et-Loire 2013</strong></div>
+      </li>
+      <li>
         <img src="images/kaleessi/panorama/vernis-permanent.jpg" alt="">
         <div class="banner slider-text"><strong>Vernis permanent</strong></div>
       </li>
@@ -25,6 +29,7 @@
 
     <div class="pagination">
       <ul>
+        <li><a href="#"><img src="images/kaleessi/panorama/miss-saone-et-loire-small.png" alt=""></a></li>
         <li><a href="#"><img src="images/kaleessi/panorama/vernis-permanent-small.jpg" alt=""></a></li>
         <li><a href="#"><img src="images/kaleessi/panorama/french-manucure-small.jpg" alt=""></a></li>
         <li><a href="#"><img src="images/kaleessi/panorama/nail-art-small.jpg" alt=""></a></li>

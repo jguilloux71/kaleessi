@@ -49,6 +49,30 @@
             </div>
             <div class="grid_3">
                 <figure class="page-3-box">
+                    <a href="images/kaleessi/telethon/big/miss-saone-et-loire-2013-1.jpg.png" class="hover-caption">
+                        <img src="images/kaleessi/telethon/small/miss-saone-et-loire-2013-1.jpg.png" alt="" width="300" />
+                        <div class="caption">Miss Saone-et-Loire 2013</div>
+                    </a>
+                </figure>    
+            </div>
+            <div class="grid_3">
+                <figure class="page-3-box">
+                    <a href="images/kaleessi/telethon/big/stand-sourire.jpg" class="hover-caption">
+                        <img src="images/kaleessi/telethon/small/stand-sourire.jpg" alt="" width="300" />
+                        <div class="caption">Stand Telethon 2013</div>
+                    </a>
+                </figure>    
+            </div>
+            <div class="grid_3">
+                <figure class="page-3-box">
+                    <a href="images/kaleessi/telethon/big/affiche-clients.JPG" class="hover-caption">
+                        <img src="images/kaleessi/telethon/small/affiche-clients.JPG" alt="" width="300" />
+                        <div class="caption">Stand Telethon 2013</div>
+                    </a>
+                </figure>    
+            </div>
+            <div class="grid_3">
+                <figure class="page-3-box">
                     <a href="#" class="hover-caption">
                         <img src="images/kaleessi/kaleessi-main-vernis.jpg" alt="" width="300" />
                         <div class="caption">Nail art</div>
