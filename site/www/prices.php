@@ -12,6 +12,7 @@
 	<script type="text/javascript" src="js/Century_gothic_400.font.js"></script>
     <script type="text/javascript" src="js/superfish.js"></script>
     <script type="text/javascript" src="js/FF-cash.js"></script>
+    <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
     <script type="text/javascript">
 		function goToByScroll(id)
 		{
@@ -30,6 +31,7 @@
 <!--==============================header=================================-->
   <header id="top">
       <?php require('include/logo.php'); ?>
+      <?php require('include/social.php'); ?>
       <?php require('include/menu.php'); ?>
       <div class="clear"></div>
   </header> 

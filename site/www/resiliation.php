@@ -16,6 +16,7 @@
     <script type="text/javascript" src="js/jquery.equalheights.js"></script>
     <script type="text/javascript" src="js/forms.js"></script>
     <script type="text/javascript" src="js/FF-cash.js"></script>
+    <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
     <script type="text/javascript">
 		function goToByScroll(id)
 		{
@@ -39,6 +40,7 @@
 <!--==============================header=================================-->
   <header id="top">
       <?php require('include/logo.php'); ?>
+      <?php require('include/social.php'); ?>
       <?php require('include/menu.php'); ?>
       <div class="clear"></div>
   </header> 
