@@ -129,6 +129,46 @@
                     </a>
                 </figure>    
             </div>
+            <div class="grid_3">
+                <figure class="page-3-box">
+                    <a href="images/kaleessi/coffrets/big/102_3619.jpg" class="hover-caption">
+                        <img src="images/kaleessi/coffrets/small/102_3619.jpg" alt="" width="220" />
+                        <div class="caption">12,90 - lime, vernis, pochoirs</div>
+                    </a>
+                </figure>    
+            </div>
+            <div class="grid_3">
+                <figure class="page-3-box">
+                    <a href="images/kaleessi/coffrets/big/102_3617.jpg" class="hover-caption">
+                        <img src="images/kaleessi/coffrets/small/102_3617.jpg" alt="" width="220" />
+                        <div class="caption">17,90 - lime, vernis, bracelet, pochoirs</div>
+                    </a>
+                </figure>    
+            </div>
+            <div class="grid_3">
+                <figure class="page-3-box">
+                    <a href="images/kaleessi/coffrets/big/102_3624.jpg" class="hover-caption">
+                        <img src="images/kaleessi/coffrets/small/102_3624.jpg" alt="" width="220" />
+                        <div class="caption">29,90 - huile corps, effervescent bain</div>
+                    </a>
+                </figure>    
+            </div>
+            <div class="grid_3">
+                <figure class="page-3-box">
+                    <a href="images/kaleessi/coffrets/big/102_3625.jpg" class="hover-caption">
+                        <img src="images/kaleessi/coffrets/small/102_3625.jpg" alt="" width="220" />
+                        <div class="caption">30,90 - huile massage, "cupcakes" bain</div>
+                    </a>
+                </figure>    
+            </div>
+            <div class="grid_3">
+                <figure class="page-3-box">
+                    <a href="images/kaleessi/coffrets/big/102_3623.jpg" class="hover-caption">
+                        <img src="images/kaleessi/coffrets/small/102_3623.jpg" alt="" width="220" />
+                        <div class="caption">34,90 - bougie massage, "cupcake" bain</div>
+                    </a>
+                </figure>    
+            </div>
             <div class="clear"></div>
           </div>
       </section> 

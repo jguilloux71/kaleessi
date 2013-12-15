@@ -65,7 +65,6 @@
     <!--==============================content================================-->
       <section id="content">
           <div class="container_12">
-            <?php require('include/telethon.php'); ?>
             <?php require('include/panorama.php'); ?>
             <?php require('include/welcome.php'); ?>
             <?php require('include/misc.php'); ?>
