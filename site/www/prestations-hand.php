@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <?php require('include/header.php'); ?>
-    <title>Kaleessi - Pose d'ongles et prothésie ongulaire à Mâcon - Description des prestations "Soin des mains"</title>
-    <meta name="description" content="Kaleessi, salon de pose d'ongles sur Mâcon. Présentations des soins des mains." />
+    <title>Kaleessi - Onglerie à Mâcon - Pose d'ongles et prothésie ongulaire à Mâcon - Description des prestations "Soin des mains"</title>
+    <meta name="description" content="Kaleessi, onglerie et salon de pose d'ongles sur Mâcon. Présentations des soins des mains." />
     <script type="text/javascript" src="js/jquery-1.6.2.min.js"></script>
     <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
     <script type="text/javascript" src="js/cufon-yui.js"></script>
