@@ -123,11 +123,12 @@ header {width:977px; margin:0 auto; z-index:99; position:relative; }
     margin: 27px 0px 7px 0px;
     float: left;
 }
+.logo h1 { width:200px; height:96px;}
+
 .social {
     margin: 50px 0px 7px 100px;
     float: left;
 }
-h1 { width:200px; height:96px;}
 nav {float:right; margin:50px 0px 0px 0px; position:relative; z-index:99;}
 
 /*********************************content*************************************/
