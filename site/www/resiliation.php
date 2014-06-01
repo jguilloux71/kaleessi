@@ -11,12 +11,12 @@
     <script type="text/javascript" src="js/cufon-replace.js"></script>
     <script type="text/javascript" src="js/Yellowtail_400.font.js"></script>
 	<script type="text/javascript" src="js/Century_gothic_400.font.js"></script>
-    <script type="text/javascript" src="js/superfish.js"></script>
-    <script type="text/javascript" src="js/tms-0.3.js"></script>
-	<script type="text/javascript" src="js/tms_presets.js"></script>
+    <script type="text/javascript" src="js/superfish.min.js"></script>
+    <script type="text/javascript" src="js/tms-0.3.min.js"></script>
+	<script type="text/javascript" src="js/tms_presets.min.js"></script>
     <script type="text/javascript" src="js/jquery.equalheights.js"></script>
-    <script type="text/javascript" src="js/forms.js"></script>
-    <script type="text/javascript" src="js/FF-cash.js"></script>
+    <script type="text/javascript" src="js/forms.min.js"></script>
+    <script type="text/javascript" src="js/FF-cash.min.js"></script>
     <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
     <script type="text/javascript">
 		function goToByScroll(id)

@@ -12,9 +12,9 @@
     <script type="text/javascript" src="js/Yellowtail_400.font.js"></script>
 	<script type="text/javascript" src="js/Century_gothic_400.font.js"></script>
     <script type="text/javascript" src="js/Century_400.font.js"></script>
-    <script type="text/javascript" src="js/superfish.js"></script>
+    <script type="text/javascript" src="js/superfish.min.js"></script>
     <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
-    <script type="text/javascript" src="js/FF-cash.js"></script>
+    <script type="text/javascript" src="js/FF-cash.min.js"></script>
     <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
     <script type="text/javascript">
 	function goToByScroll(id)
