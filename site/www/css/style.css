@@ -49,6 +49,8 @@ a.color-9:hover {color:#e39efd;}
 .color-11 { font-size:13px; line-height:19px; color:#a23f7e; text-decoration:underline; }
 a.color-11:hover {color:#e39efd;text-decoration:underline; }
 
+h1.size52 {font-size:52px; line-height:66px; font-weight:normal;}
+h1.size30 {font-size:30px; line-height:50px; font-weight:normal;}
 h3 {font-size:52px; line-height:66px; font-weight:normal;}
 h4 {font-size:48px; line-height:62px; font-weight:normal;}
 h5, h2 {font-size:30px; line-height:50px; font-weight:normal;}

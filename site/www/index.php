@@ -72,7 +72,7 @@
 
             <div id="horaires" class="grid_4">
             	<article class="block-3 maxheight">
-                    <h5>Nos Horaires</h5>
+                    <h1 class="size30">Nos Horaires</h1>
                     <div class="block-3-text">
                         <p class="color-5">Avec ou sans rendez-vous</p>
                         <?php require('include/hours.php'); ?>

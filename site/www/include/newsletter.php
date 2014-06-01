@@ -1,6 +1,6 @@
 <div class="grid_3">
   <article class="block-5">
-    <h5>Lettre d'information</h5>
+    <h1 class="size30">Lettre d'information</h1>
     <div class="color-6">
       Rester inform&eacute; des nouvelles promotions, nouvelles prestations, ....
     </div>
