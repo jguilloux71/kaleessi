@@ -1,0 +1,1 @@
+<meta name="keywords" content="stylisme ongulaire, ongles, ongle, pose, pose ongle, pose d'ongle, main, mains, pied, pieds, macon, mâcon, 71000, 71, graine de plaisir, détente, bien être, bien etre, soin, onglerie, soins, salon, moderne, prothésie, convivialité, prothésiste ongulaire, prothésie ongulaire" />

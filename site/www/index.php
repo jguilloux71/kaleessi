@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
     <?php require('include/header.php'); ?>
-    <title>Kaleessi - Onglerie à Mâcon - Pose d'ongles et prothésie ongulaire à Mâcon</title>
+    <title><?php require('include/title.php'); ?></title>
     <meta name="description" content="Kaleessi, onglerie et salon de pose d'ongles sur Mâcon est heureux de vous accueillir dans son univers moderne et innovant où la prothésie ongulaire côtoie le plaisir et le bien-être." />
+    <?php require('include/keywords.php'); ?>
     <script type="text/javascript" src="js/jquery-1.6.2.min.js"></script>
     <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
     <script type="text/javascript" src="js/cufon-yui.js"></script>

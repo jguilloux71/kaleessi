@@ -1,6 +1,5 @@
 <meta charset="utf-8">
-<meta name="Copyright" content="Kaleessi" />
-<meta name="keywords" content="stylisme ongulaire, ongles, ongle, pose, pose ongle, pose d'ongle, main, mains, pied, pieds, macon, mâcon, 71000, 71, graine de plaisir, détente, bien être, bien etre, soin, onglerie, soins, salon, moderne, prothésie, convivialité, prothésiste ongulaire, prothésie ongulaire" />
+<meta name="copyright" content="Kaleessi" />
 
 <link rel="shortcut icon" type="image/png" href="images/kaleessi/favicon-kaleessi-pink-black.png" />
 <link rel="stylesheet"    type="text/css"  href="css/reset.css"       media="screen" />
