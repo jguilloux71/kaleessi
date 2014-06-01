@@ -1,4 +1,8 @@
 SetEnv PHP_VER 5
 SetEnv REGISTER_GLOBALS 0
+
 RewriteCond %{HTTP_HOST} !^www.kaleessi.fr$ [NC]
 RewriteRule ^(.*)$ http://www.kaleessi.fr/$1 [L,R=301]
+
+RewriteCond %{HTTP_USER_AGENT} libwww-perl.* 
+RewriteRule .* – [F,L]
