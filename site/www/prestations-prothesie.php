@@ -5,7 +5,7 @@
     <title><?php require('include/title.php'); ?> - Descriptions des prestations de prothésie ongulaire</title>
     <meta name="description" content="Kaleessi, onglerie et salon de pose d'ongles sur Mâcon. Présentations de la pose d'ongle et de la prothésie ongulaire." />
     <?php require('include/keywords.php'); ?>
-    <script type="text/javascript" src="js/jquery-1.6.2.min.js"></script>
+    <script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
     <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
     <script type="text/javascript" src="js/cufon-yui.js"></script>
     <script type="text/javascript" src="js/cufon-replace.js"></script>

@@ -5,7 +5,7 @@
     <title><?php require('include/title.php'); ?> - Description des prestations "Soin des mains"</title>
     <meta name="description" content="Kaleessi, onglerie et salon de pose d'ongles sur Mâcon. Présentations des soins des mains." />
     <?php require('include/keywords.php'); ?>
-    <script type="text/javascript" src="js/jquery-1.6.2.min.js"></script>
+    <script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
     <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
     <script type="text/javascript" src="js/cufon-yui.js"></script>
     <script type="text/javascript" src="js/cufon-replace.js"></script>
