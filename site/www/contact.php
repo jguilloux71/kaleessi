@@ -88,7 +88,7 @@
                 </div>
              </div>   
             <div class="grid_12 line-1"></div>
-            <div class="grid_12">
+            <div id="contact" class="grid_12">
             	<h2 class="top-2">Formulaire de contact</h2>
                 <?php require('include/form-contact.php'); ?>
             </div>

@@ -18,7 +18,7 @@
     <p>Si cela vous interesse, n'hésitez pas à me <a href="contact.php">contacter</a>.</p>
     <br/>
     <button class="basic_close button-1">Fermer</button>
-    <a class="button-1" href="contact.php">Contacter</a>
+    <a class="button-1" href="contact.php#contact">Contacter</a>
 </div>
 
 <!-- Include jQuery Popup Overlay -->
