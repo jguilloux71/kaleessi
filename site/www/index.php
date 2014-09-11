@@ -94,8 +94,5 @@
 <script>
 	Cufon.now();
 </script>		
-
-<?php require('include/popup-coworking.php'); ?>
-
 </body>
 </html>

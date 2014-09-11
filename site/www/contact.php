@@ -47,20 +47,6 @@
     <!--==============================content================================-->
       <section id="content">
           <div class="container_12">
-
-            <div class="grid_12">
-                <h2>Commencez votre activite en partageant mon salon !</h2>
-                <p>Kaleessi propose un concept dans l'air du temps, le <strong>co-working</strong>.</p>
-                <p>Afin de pouvoir développer votre activité de bien-être ou de beauté, <strong>je mets à votre disposition un espace dans mon propre salon</strong>, avec les avantages suivants:</p>
-                <ul class="list-2">
-                    <li><a href="#">fini le travail en solitaire, plus de convivialité et d'échanges</a></li>
-                    <li><a href="#">vous faire connaitre plus rapidement avec une boutique déjà existante</a></li>
-                    <li><a href="#">moins de frais locatif</a></li>
-                    <li><a href="#">vous arrivez, vous avez déjà tout : connexion internet, téléphone, eau, EDF, ...</a></li>
-                </ul>
-                <p>Si cela vous interesse, n'hésitez pas à me contacter.</p>
-            </div>
-
             <div class="grid_12">
             	<h2 class="pad-1">Comment nous trouver</h2>
                 <div class="wrapper page-5-row-1">   
