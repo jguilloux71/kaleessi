@@ -155,10 +155,10 @@ a.top {
     text-align: left;
     text-decoration: none;
 	text-shadow:#c798ad 1px 1px 1px; 
-	position: absolute;
-    right: 4px;
+    right: 50px;
+    bottom: 50px;
 	padding:10px 12px 8px 12px;
-
+    position: fixed;
 }
 .top span {
     background: url(../images/top-marker.png) right 4px no-repeat;
