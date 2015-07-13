@@ -3,7 +3,7 @@
 <head>
     <?php require('include/header.php'); ?>
     <title><?php require('include/title.php'); ?></title>
-    <meta name="description" content="Kaleessi, onglerie et salon de pose d'ongles sur Mâcon est heureux de vous accueillir dans son univers moderne et innovant où la prothésie ongulaire côtoie le plaisir et le bien-être." />
+    <meta name="description" content="SOCIETE FERMEE - SITE FERME" :>
     <?php require('include/keywords.php'); ?>
     <script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
     <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
@@ -51,48 +51,17 @@
 	<![endif]-->
 </head>
 <body>
-
-
-<!--==============================header=================================-->
-  <header id="top">
-      <?php require('include/logo.php'); ?>
-      <?php require('include/social.php'); ?>
-      <?php require('include/menu.php'); ?>
-      <div class="clear"></div>
-  </header> 
 <div class="max">   
     <div class="main">
     <br/> 
     <!--==============================content================================-->
       <section id="content">
           <div class="container_12">
-            <?php require('include/panorama.php'); ?>
-            <?php require('include/welcome.php'); ?>
-            <?php require('include/misc.php'); ?>
-
-            <div id="horaires" class="grid_4">
-            	<article class="block-3 maxheight">
-                    <h1 class="size30">Nos Horaires</h1>
-                    <div class="block-3-text">
-                        <p class="color-5">Avec ou sans rendez-vous</p>
-                        <?php require('include/hours.php'); ?>
-					</div>
-                </article>
-            </div>
-            <?php require('include/gdp-intro.php'); ?>
-            <?php require('include/newsletter.php'); ?>
-            <?php require('include/retrieve-us.php'); ?>
-
+            SOCIETE FERMEE - SITE FERME
             <div class="clear"></div>
           </div>
       </section> 
-    <!--==============================footer=================================-->
-      <?php require('include/footer.php'); ?>
     </div>
-    <a class="top" onClick="goToByScroll('top'); return false;" href="#"><span>TOP</span></a>    
 </div>    
-<script>
-	Cufon.now();
-</script>		
 </body>
 </html>
